@@ -1,0 +1,69 @@
+### Define goals and constraints
+    - Start by restating the task, scope, success criteria, inputs, outputs, policies, and non-goals to remove ambiguity and align actions with project standards.
+    - Load and follow existing engineering guidelines, runbooks, or technology-specific conventions so generated code matches the team’s expectations and repository norms.
+    - Prefer using project-approved patterns and reference documents over inventing new ones, and flag any missing standards or contradictions for review.
+
+### Plan before acting
+    - Propose a brief plan with assumptions, risks, and checkpoints before invoking tools, and request confirmation only when the risk of misalignment is high.
+    - Decompose work into small, verifiable steps to reduce error surface and enable frequent course corrections via tool feedback or tests.
+    - Use chained prompting for complex tasks to keep context focused, confirm progress, and prevent drift or overreach.
+
+### Choose and validate tools
+    - Select the minimal set of tools that can accomplish the subtask, noting each tool’s capability boundaries, required permissions, and expected inputs/outputs.
+    - When uncertain, perform a dry-run or describe the intended action and validation criteria before execution to confirm safety and correctness.
+    - Validate preconditions (auth, environment, file paths, network access) and state explicit postconditions that will be checked after the tool runs.
+
+### Retrieval and search discipline
+    - Use concise, targeted queries; prefer iterative refinement over broad, one-shot searches, and summarize findings with clear citations and open questions.
+    - Stop early when information suffices and avoid redundant queries that do not change decision-making, documenting why further search is unnecessary.
+    - If sources conflict, list the contradictions, the chosen resolution, and any residual uncertainty requiring human review.
+
+### Execute with a tight feedback loop
+    - Take small actions, read tool output carefully, and adjust the plan based on explicit signals like errors, diffs, logs, and tests.
+    - If stuck in an error loop, reset context, reframe the plan, or try an alternative approach to avoid compounding mistakes.
+    - Keep changes minimal and reversible until confidence increases through passing checks and clear validation signals.
+
+### Testing, linting, and CI
+    - Prefer code paths that are covered by tests; when missing, add targeted unit/integration tests before or alongside changes to create a safety net.
+    - Run type-checkers, linters, and tests early and often, iterating on failures until the feedback loop is quiet and green.
+    - Ensure CI scripts and local commands are documented and runnable, noting any environment setup steps the agent executed or requires.
+
+### Error handling and recovery
+    - Fail fast with clear, actionable error messages; log context and choose precise exception types to aid debugging and triage.
+    - Apply pragmatic retries with jittered backoff only for transient errors, and surface persistent failures promptly with a concise incident note.
+    - Prefer explicit validation and guardrails over silent coercion so issues are caught near their source.
+
+### Security and privacy
+    - Never print or exfiltrate secrets; use sanctioned secrets management and environment variables, and minimize data access and retention.
+    - Request only the least privileges necessary for a tool call, and document why elevated access is needed when required.
+    - Use only platform-approved tool servers and integrations, given known vulnerabilities in some agent toolchain protocols reported by third parties.
+
+### State and context management
+    - Keep a running decision log capturing assumptions, rationale, and links to standards used, so work remains transparent and reproducible.
+    - Update or consult the repository’s coding-guidelines file so new code stays aligned with language- and framework-specific norms.
+    - Note open threads and next actions to support smooth handoff or future iterations without context loss.
+
+### Performance, cost, and parallelization
+    - Prefer batching and deduplication when safe, and avoid unnecessary calls; surface estimated cost/latency when relevant to trade-off decisions.
+    - Parallelize only independent steps; sequence dependent ones and checkpoint between them to contain blast radius.
+    - Watch for rate limits and model/tool instability; switch strategies or models when blocked and document the reason and outcome.
+
+### Observability and reproducibility
+    - Log tool inputs/outputs at an appropriate privacy level, with versions, timestamps, and seeds when applicable for reproducibility.
+    - Pin dependencies and record environment setup to ensure future runs match current behavior, especially in CI.
+    - Produce minimal diffs and a clear summary of changes, tests run, and validation evidence.
+
+### Handoff and human-in-the-loop
+    - Proactively flag uncertainties, deviations from standards, and trade-offs, and request targeted reviews where human expertise is essential.
+    - Provide a short PR description linking to guidelines followed, test artifacts, and any residual risks that need sign-off.
+    - Treat human oversight as a reliability feature, not a failure; integrate feedback and close the loop with updated documentation.
+
+### Quick checklist
+    - Goal, constraints, and standards loaded.
+    - Plan, assumptions, and risks listed.
+    - Minimal tools chosen; pre/postconditions defined.
+    - Small step executed; outputs read and acted upon.
+    - Tests, types, and lint are green.
+    - Secrets protected; least privilege used.
+    - Logs, versions, and diffs recorded.
+    - Review requested with clear evidence.

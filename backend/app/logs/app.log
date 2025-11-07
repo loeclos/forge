@@ -1,0 +1,12 @@
+{"timestamp": "2025-11-06T00:06:19.349977", "level": "INFO", "logger": "uvicorn.error", "module": "config", "line": 321, "message": "Will watch for changes in these directories: ['F:\\\\Desktop\\\\Projects\\\\forge\\\\backend\\\\app']", "extra": {}}
+{"timestamp": "2025-11-06T00:06:19.350881", "level": "INFO", "logger": "uvicorn.error", "module": "config", "line": 542, "message": "Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)", "extra": {}}
+{"timestamp": "2025-11-06T00:06:19.351472", "level": "INFO", "logger": "uvicorn.error", "module": "basereload", "line": 80, "message": "Started reloader process [27464] using WatchFiles", "extra": {}}
+{"timestamp": "2025-11-06T00:06:20.460226", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [28080]", "extra": {}}
+{"timestamp": "2025-11-06T00:06:20.462773", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-06T00:06:20.463069", "level": "INFO", "logger": "app", "module": "main", "line": 77, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-06T00:06:20.463213", "level": "INFO", "logger": "app", "module": "main", "line": 77, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-06T00:06:20.474495", "level": "INFO", "logger": "app", "module": "main", "line": 47, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-06T00:06:20.474625", "level": "INFO", "logger": "app", "module": "main", "line": 47, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-06T00:06:20.475306", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-06T00:06:20.528006", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-06T00:06:23.339541", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}

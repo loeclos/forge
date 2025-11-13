@@ -6,7 +6,7 @@ router = APIRouter()
 
 logger = logging.getLogger(__name__)
 
-@router.get('/utils/getcwd')
+@router.get('/getcwd')
 def get_current_folder():
     try:
         current_dir = os.getcwd()

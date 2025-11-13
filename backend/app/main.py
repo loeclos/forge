@@ -85,6 +85,6 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 
-app.include_router(ollama_routes.router, prefix='/api/ollama')
+app.include_router(ollama_routes.router, prefix='/api/models')
 app.include_router(chat_routes.router, prefix='/api/chat')
 app.include_router(util_routes.router, prefix='/api/utils')

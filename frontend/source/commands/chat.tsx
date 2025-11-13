@@ -1,124 +1,104 @@
-import React from 'react';
-import {Text} from 'ink';
-import SecurityQuestionComponent from '../components/security-question.js'
-import zod from 'zod';
+import {Box, useApp} from 'ink';
+import {useEffect, useState} from 'react';
+import CommandSelect from '../components/command-select.js';
+import Input from '../components/input.js';
+import MenuComponent from '../components/menu.js';
+import MessagesComponent from '../components/messages.js';
+import useMessageService from '../services/use-message-service.js';
+import {Command} from '../types/command.js';
 
-export const isDefault = true;
+export default function Chat() {
+	const [query, setQuery] = useState('');
+	const {sendAndRecieveMessage, messages, currentMessage} = useMessageService(null);
 
-// export const options = zod.object({
-// 	name: zod.string().default('Stranger').describe('Name'),
-// });
+	const defaultCommands: Command[] = [
+		{
+			name: 'models',
+			description: 'Get available models.',
+		},
+		{
+			name: 'model',
+			description: 'Get current model in use.',
+		},
+		{
+			name: 'change',
+			description: 'Change the model in use.',
+		},
+		{
+			name: 'exit',
+			description: 'Exit forge',
+		},
+	];
 
-// type Props = {
-// 	options: zod.infer<typeof options>;
-// };
+	const [possibleCommands, setPossibleCommands] =
+		useState<Command[]>(defaultCommands);
+	const [enteringCommand, setEnteringCommand] = useState(false);
+	const [selectedCommand, setSelectedCommand] = useState('');
+	const [showMenu, setShowMenu] = useState(false);
+	const {exit} = useApp();
 
-// {options}: Props
-// export default function Index() {
-// 	return (
-// 		<Text>
-// 			Hello, <Text color="green"></Text>
-// 		</Text>
-// 	);
-// }
+	const handleInputSubmit = (value: string) => {
+		if (!enteringCommand) {
+			sendAndRecieveMessage(value);
+			setQuery('');
+		}
+	};
 
-
-import { Box, Newline, useInput, useApp} from 'ink';
-import { useEffect, useState } from 'react';
-
-interface CwdResponse {
-	dir: string | undefined;
-	message: string | undefined;
-}
-
-export default function App() {
-	const [cwd, setCwd] = useState('');
-	const [proceedConsent, setProceedConsent] = useState(false);
-	const [lastKeyPressed, setLastKeyPressed] = useState('');
-	const [mainServerEndpoint, setMainServerEndpoint] = useState('http://127.0.0.1:8000');
-	const { exit } = useApp();
+	const handleCommandSelect = (item: any) => {
+		setSelectedCommand(item.value);
+		setQuery('/');
+	};
 
 	useEffect(() => {
-		setMainServerEndpoint(process.env['MAIN_ENDPOINT'] || 'http://127.0.0.1:8000');
-	})
+		if (query.startsWith('/')) {
+			setEnteringCommand(true);
+			setSelectedCommand('');
+		} else {
+			setEnteringCommand(false);
+			setSelectedCommand('');
+		}
 
-	useEffect(() => {
-		const fetchCwd = async (): Promise<CwdResponse> => {
-			const response = await fetch(`${mainServerEndpoint}/utils/getcwd`);
-			const data: CwdResponse = await response.json();
-			return data;
-		};
+		if (enteringCommand) {
+			const cmd = query.slice(1);
 
-		fetchCwd()
-			.then(data => {
-				setCwd(data?.dir || '');
-			})
-			.catch(error => {
-				console.error('Error fetching cwd:', error);
+			setPossibleCommands(() => {
+				const newCmds = defaultCommands.filter(command => command.name.includes(cmd));
+				return newCmds;
 			});
-	}, []);
+		} else {
+			setPossibleCommands(defaultCommands);
+		}
+	}, [query]);
 
-	useInput((input, key) => {
-		if (key.escape) {
+	useEffect(() => {
+		if (selectedCommand === 'exit') {
 			exit();
 		}
-		
-		if (lastKeyPressed === 'ctrl' && input === 'c') {
-			exit();
+		if (selectedCommand != '') {
+			setShowMenu(true);
+		} else {
+			setShowMenu(false);
 		}
+	}, [selectedCommand]);
 
-		setLastKeyPressed(input);
-	});
 
-	return (
-		<Box flexDirection="column" gap={1} flexWrap="wrap">
-			<Box>
-				<Text>
-					<Text color={'magentaBright'} bold>
-						Welcome to Forge!
-					</Text>
-					<Newline />
-					<Text>
-						Forge can write, test and debug code right from your terminal.
-						Describe a <Newline />
-						task to get started or enter ? for help. Forge uses AI, check for
-						mistakes.
-					</Text>
-				</Text>
-			</Box>
-
-			{proceedConsent === false ? (
-				<SecurityQuestionComponent
-					cwd={cwd}
-					setProceedConsent={setProceedConsent}
-				/>
-			) : null}
-
-			{proceedConsent ? (
-				<MainComponent activeDir={activeDir} exit={exit} />
-			) : null}
-		</Box>
-	);
-}
-
-function View() {
 	return (
 		<Box width={'100%'} flexDirection="column" gap={0} flexWrap="wrap">
 			<Box>
-				<MessagesComponent messages={messages} />
-			</Box>
-			<Box>
-				{showInfoComponent && CurrentInfoComponent && <CurrentInfoComponent />}
-			</Box>
-			<Box marginTop={2} paddingLeft={1}>
-				<Text dimColor>{activeDir}</Text>
+				<MessagesComponent messages={messages} currentMessage={currentMessage} />
 			</Box>
 
-			{enteringCommand && !showInfoComponent ? (
+			{showMenu ? <MenuComponent componentKey={selectedCommand} /> : null}
+
+			<Input
+				query={query}
+				setQuery={setQuery}
+				handleSumbit={handleInputSubmit}
+			/>
+			{enteringCommand && !showMenu ? (
 				<CommandSelect
-					commands={commands}
-					handleChange={handleCommandChange}
-					filterBy={filterBy}
+					commands={possibleCommands}
+					handleSelect={handleCommandSelect}
 				/>
 			) : null}
 		</Box>

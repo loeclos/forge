@@ -32,7 +32,7 @@ class ConfirmToolRequest(BaseModel):
 def confirm_tool(request: ConfirmToolRequest):
     pass
     
-@router.post("/chat")
+@router.post("/")
 async def chat(request: ChatRequest):
 
     # Generate a session_id if not provided

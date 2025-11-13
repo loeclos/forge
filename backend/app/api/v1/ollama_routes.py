@@ -45,14 +45,14 @@ def download_new_model(model_name: str):
         download_model(model_name),
         media_type='application/json'  
         )     
-    except ollama.ConnectionError:
+    except ConnectionError as e:
         logger.error(f'Failed to download {model_name}: Ollama not installed or not running.')
         return HTTPException(status_code=500, detail='Ollama either not installed or not running.')
     except ollama.ResponseError:
         logger.error(f'Failed to download {model_name}: Model does not exist.')
         return HTTPException(status_code=500, detail='The model you tried to download does not exist.')
 
-@router.get('/models')
+@router.get('/all')
 def get_models():
     '''This function will return all of the availble models.
     
@@ -62,11 +62,12 @@ def get_models():
     - `HTTPException` if ollama throws a ConnectionError.'''
     
     formatted_models_list = []
+    models_list = []
 
     try:
         logger.info("Fetching all available models from Ollama.")
-        models_list = get_all_models
-    except ollama.ConnectionError:
+        models_list = get_all_models()
+    except ConnectionError as e:
         logger.error("Failed to fetch models: Ollama not installed or not running.")
         return HTTPException(status_code=500, detail='Ollama either not installed or not running.')
     
@@ -86,7 +87,7 @@ def get_current_model():
     - `dict`: A dictionary with the current model from settings'''
     
     logger.info(f"Current model is {settings.MODEL}")
-    return {'model': settings.MODEL}
+    return {'name': settings.MODEL}
 
 @router.get('/alive')
 def check_ollama_running():
@@ -95,7 +96,7 @@ def check_ollama_running():
         ollama.ps()
         logger.info("Ollama is running.")
         return True
-    except ollama.ConnectionError:
+    except ConnectionError as e:
         logger.error("Ollama is not running.")
         return False
 
@@ -112,15 +113,16 @@ def change_current_model(new_model: ChangeModelRequest):
         logger.info(f"Changing current model to {new_model.model_name}")
         all_models = get_all_models()
 
-        for model in all_models:
-            logger.debug(f"Checking model: {model['name']}")
-            if model['name'] == new_model.model_name:
+        for model in all_models['models']:
+            print( model)
+            logger.debug(f"Checking model: {model['model']}")
+            if model['model'] == new_model.model_name:
                 settings.MODEL = new_model.model_name
                 logger.info(f"Model changed to {settings.MODEL}")
                 return {'message': f'Success! model set to {settings.MODEL}'}
             else:
                 continue
-    except ollama.ConnectionError:
+    except ConnectionError as e:
         logger.error("Failed to change model: Ollama not installed or not running.")
         return HTTPException(status_code=500, detail='Ollama either not installed or not running.')
 

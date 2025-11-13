@@ -37,7 +37,7 @@ export default function SecurityQuestionComponent({
 			gap={1}
 			flexWrap="wrap"
 			width={'100%'}
-			padding={1}
+			paddingX={1}
 			borderStyle={'round'}
 			borderColor={'#D97D55'}
 		>

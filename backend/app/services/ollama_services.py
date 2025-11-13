@@ -1,6 +1,7 @@
 '''
 Ollama functions that get used throughout the project
 '''
+
 import ollama
 
 def check_ollama_running():
@@ -8,7 +9,7 @@ def check_ollama_running():
     try: 
         ollama.ps()
         return True
-    except ollama.ConnectionError:
+    except ConnectionError as e:
         return False
     
 def get_all_models():
@@ -20,5 +21,5 @@ def get_all_models():
 
     try: 
         return ollama.list()
-    except ollama.ConnectionError:
+    except ConnectionError as e:
         raise

@@ -16,26 +16,29 @@
 		"dist"
 	],
 	"dependencies": {
-		"ink": "^4.1.0",
+		"dotenv": "^17.2.3",
+		"ink": "^6.4.0",
 		"ink-select-input": "^6.2.0",
-		"pastel": "^2.0.0",
-		"react": "^18.2.0",
-		"zod": "^3.21.4"
+		"ink-text-input": "^6.0.0",
+		"pastel": "^4.0.0",
+		"react": "^19.2.0",
+		"uuid": "^13.0.0",
+		"zod": "^4.1.12"
 	},
 	"devDependencies": {
-		"@sindresorhus/tsconfig": "^3.0.1",
-		"@types/react": "^18.0.32",
+		"@sindresorhus/tsconfig": "^8.1.0",
+		"@types/react": "^19.2.2",
 		"@vdemedes/prettier-config": "^2.0.1",
-		"ava": "^5.2.0",
-		"chalk": "^5.2.0",
-		"eslint-config-xo-react": "^0.27.0",
-		"eslint-plugin-react": "^7.32.2",
-		"eslint-plugin-react-hooks": "^4.6.0",
-		"ink-testing-library": "^3.0.0",
-		"prettier": "^2.8.7",
-		"ts-node": "^10.9.1",
-		"typescript": "^5.0.3",
-		"xo": "^0.54.2"
+		"ava": "^6.4.1",
+		"chalk": "^5.6.2",
+		"eslint-config-xo-react": "^0.29.0",
+		"eslint-plugin-react": "^7.37.5",
+		"eslint-plugin-react-hooks": "^7.0.1",
+		"ink-testing-library": "^4.0.0",
+		"prettier": "^3.6.2",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.9.3",
+		"xo": "^1.2.3"
 	},
 	"ava": {
 		"extensions": {
@@ -54,5 +57,17 @@
 		}
 	},
 	"prettier": "@vdemedes/prettier-config",
-	"packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67"
+	"packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67",
+	"importSort": {
+		".js, .jsx, .es6, .es": {
+			"parser": "babylon",
+			"style": "eslint",
+			"options": {}
+		},
+		".ts, .tsx": {
+			"parser": "typescript",
+			"style": "eslint",
+			"options": {}
+		}
+	}
 }

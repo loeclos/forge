@@ -55,6 +55,14 @@ export default function App() {
 		<Box flexDirection="column" gap={1} flexWrap="wrap">
 			<Box>
 				<Text>
+				<Text color={'#6FA4AF'}> 
+					════════════════  <Newline />
+					╔═╗╔═╗╦═╗╔═╗╔═╗   <Newline />
+					╠╣ ║ ║╠╦╝║ ╦║╣    <Newline /> 
+					╚  ╚═╝╩╚═╚═╝╚═╝   <Newline />  
+					Agentic CLI       <Newline />
+					<Newline /><Newline />
+				</Text>
 					<Text color={'magentaBright'} bold>
 						Welcome to Forge!
 					</Text>

@@ -59,22 +59,28 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
+With conda:
+```bash
+conda env create -f environment.yml
+```
+
 **macOS/Linux:**
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### Step 3: Install Python Dependencies
-
-If `requirements.txt` exists:
+With conda:
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 
-If `requirements.txt` doesn't exist, install manually:
+### Step 3: Install Python Dependencies
+
+> _Note: If you installed with conda through the `enviornment.yml` file, you can skip this step_
+
 ```bash
-pip install fastapi uvicorn sqlalchemy ollama agno tavily-python pydantic-settings python-dotenv
+pip install -r requirements.txt
 ```
 
 ### Step 4: Verify Backend Installation
@@ -173,7 +179,7 @@ ollama list
 
 You should see your downloaded model(s) in the list.
 
-## Tavily API Setup
+## Tavily API Setup (if you want internet search)
 
 ### Step 1: Create Tavily Account
 
@@ -184,17 +190,17 @@ You should see your downloaded model(s) in the list.
 
 ### Step 2: Add API Key to Environment
 
-The API key will be added to your `.env` file (see Environment Configuration section).
+The API key will be added to your `.env.local` file (see Environment Configuration section).
 
 ## Environment Configuration
 
 ### Backend Environment Variables
 
-Create a `.env` file in the `backend/` directory:
+Create a `.env.local` file in the `backend/` directory:
 
 ```bash
 cd backend
-touch .env  # macOS/Linux
+touch .env.local  # macOS/Linux
 # or create .env manually on Windows
 ```
 

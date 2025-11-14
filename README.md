@@ -1,16 +1,21 @@
 # Forge
 
-A full-stack AI chat application with a FastAPI backend and TypeScript/React CLI frontend. Forge provides an interactive terminal-based interface for chatting with AI models powered by Ollama, with support for internet search capabilities.
+A full-stack AI chat application with a FastAPI backend and TypeScript/React CLI frontend. Forge provides an interactive terminal-based interface for chatting with AI models powered by Ollama, with support for tools.
 
 ## Features
 
 - **Terminal-based Chat Interface**: Beautiful CLI interface built with React and Ink
 - **Ollama Integration**: Seamless integration with Ollama for local AI model inference
-- **Model Management**: Download, list, and switch between different AI models
 - **Streaming Responses**: Real-time streaming of AI responses for better UX
-- **Internet Search**: AI agent can search the internet using Tavily API
 - **Session Management**: Persistent chat history with session support
 - **Command System**: Built-in commands for model management and navigation
+
+## Todos
+- [ ] 1. Add file reading/writing tools
+- [ ] 2. Add tool confirmation capabilities.
+- [ ] 3. Add model downloading util at the frontend.
+- [ ] 4. Add command running tools for the models.
+- [ ] 5. Add MCP server support.
 
 ## Tech Stack
 
@@ -51,27 +56,27 @@ Before installing Forge, ensure you have the following installed:
    ```
 
 2. **Install Backend Dependencies**:
+   With conda:
+   ```bash
+   conda env create -f environment.yml
+   ```
+   With pip:
    ```bash
    cd backend
    pip install -r requirements.txt
-   ```
-   
-   If `requirements.txt` doesn't exist, install dependencies manually:
-   ```bash
-   pip install fastapi uvicorn sqlalchemy ollama agno tavily-python pydantic-settings python-dotenv
    ```
 
 3. **Install Frontend Dependencies**:
    ```bash
    cd ../frontend
    npm install
-   # or
+   # or (recommended)
    pnpm install
    ```
 
 4. **Configure Environment Variables**:
    
-   Create a `.env` file in the `backend` directory:
+   Create a `.env.local` file in the `backend` directory:
    ```env
    TAVILY_API_KEY=your_tavily_api_key_here
    ```
@@ -148,35 +153,35 @@ The frontend configuration is managed via environment variables in `.env.local`:
 forge/
 ├── backend/                 # FastAPI backend application
 │   ├── app/
-│   │   ├── api/            # API route handlers
-│   │   │   └── v1/         # API version 1 routes
-│   │   ├── config/         # Configuration modules
-│   │   ├── core/           # Core application settings
-│   │   ├── db/             # Database files
-│   │   ├── logs/           # Application logs
-│   │   ├── services/       # Business logic services
-│   │   ├── tools/          # AI agent tools
-│   │   ├── database.py     # Database configuration
-│   │   └── main.py         # FastAPI application entry point
-│   └── requirements.txt    # Python dependencies
-│
-├── frontend/               # TypeScript/React CLI frontend
-│   ├── source/            # Source code
-│   │   ├── commands/      # CLI commands
-│   │   ├── components/    # React components
-│   │   ├── hooks/         # React hooks
-│   │   ├── services/      # Service layer
-│   │   ├── types/         # TypeScript type definitions
-│   │   ├── utils/         # Utility functions
-│   │   └── cli.tsx        # CLI entry point
-│   ├── dist/              # Compiled JavaScript output
-│   └── package.json       # Node.js dependencies
-│
-└── docs/                  # Documentation
-    ├── INSTALLATION.md    # Detailed installation guide
-    ├── API.md             # API reference
-    ├── backend/           # Backend documentation
-    └── frontend/          # Frontend documentation
+│   │   ├── api/             # API route handlers
+│   │   │   └── v1/          # API version 1 routes
+│   │   ├── config/          # Configuration modules
+│   │   ├── core/            # Core application settings
+│   │   ├── db/              # Database files
+│   │   ├── logs/            # Application logs
+│   │   ├── services/        # Business logic services
+│   │   ├── tools/           # AI agent tools
+│   │   ├── database.py      # Database configuration
+│   │   └── main.py          # FastAPI application entry point
+│   └── requirements.txt     # Python dependencies
+│ 
+├── frontend/                # TypeScript/React CLI frontend
+│   ├── source/              # Source code
+│   │   ├── commands/        # CLI commands
+│   │   ├── components/      # React components
+│   │   ├── hooks/           # React hooks
+│   │   ├── services/        # Service layer
+│   │   ├── types/           # TypeScript type definitions
+│   │   ├── utils/           # Utility functions
+│   │   └── cli.tsx          # CLI entry point
+│   ├── dist/                # Compiled JavaScript output
+│   └── package.json         # Node.js dependencies
+│  
+└── docs/                    # Documentation
+    ├── INSTALLATION.md      # Detailed installation guide
+    ├── API.md               # API reference
+    ├── backend/             # Backend documentation
+    └── frontend/            # Frontend documentation
 ```
 
 ## Usage
@@ -223,24 +228,6 @@ The backend provides the following main endpoints:
 - `POST /api/chat` - Send a chat message
 - `GET /api/utils/getcwd` - Get current working directory
 
-## Development
-
-### Backend Development
-
-The backend uses FastAPI with automatic API documentation available at:
-- Swagger UI: `http://127.0.0.1:8000/docs`
-- ReDoc: `http://127.0.0.1:8000/redoc`
-
-### Frontend Development
-
-For development with hot reload:
-```bash
-cd frontend
-npm run dev  # or pnpm dev
-```
-
-This will watch for changes and automatically rebuild.
-
 ## Troubleshooting
 
 ### Ollama Connection Errors
@@ -262,18 +249,14 @@ If the frontend can't connect to the backend:
 If you get "Model not found" errors:
 1. List available models: `/models` command
 2. Download the model: Use Ollama CLI: `ollama pull <model_name>`
-3. Or use the download endpoint: `POST /api/models/download/{model_name}`
 
 For more troubleshooting tips, see [docs/INSTALLATION.md](docs/INSTALLATION.md).
 
 ## Documentation
 
-Comprehensive documentation is available in the `docs/` directory:
 
 - [Installation Guide](docs/INSTALLATION.md) - Detailed setup instructions
 - [API Reference](docs/API.md) - Complete API documentation
-- [Backend Documentation](docs/backend/README.md) - Backend architecture and code docs
-- [Frontend Documentation](docs/frontend/README.md) - Frontend architecture and code docs
 
 ## Contributing
 

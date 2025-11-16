@@ -11,7 +11,7 @@ A full-stack AI chat application with a FastAPI backend and TypeScript/React CLI
 - **Command System**: Built-in commands for model management and navigation
 
 ## Todos
-- [ ] 1. Add file reading/writing tools
+- [x] 1. Add file reading/writing tools
 - [ ] 2. Add tool confirmation capabilities.
 - [ ] 3. Add model downloading util at the frontend.
 - [ ] 4. Add command running tools for the models.

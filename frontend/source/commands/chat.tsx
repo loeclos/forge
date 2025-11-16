@@ -5,7 +5,7 @@ import Input from '../components/input.js';
 import MenuComponent from '../components/menu.js';
 import MessagesComponent from '../components/messages.js';
 import useMessageService from '../services/use-message-service.js';
-import {Command} from '../types/command.js';
+import {Command} from '../services/types/command.js';
 
 export default function Chat() {
 	const [query, setQuery] = useState('');

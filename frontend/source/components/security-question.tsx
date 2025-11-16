@@ -1,7 +1,7 @@
 import { Text, Box, Newline } from 'ink';
 import SelectInput from 'ink-select-input';
 
-import { SelectItemType } from '../types/select.js';
+import { SelectItemType } from '../services/types/select.js';
 
 
 const securityQuestionSelectOptions: SelectItemType[] = [

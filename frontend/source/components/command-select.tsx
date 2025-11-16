@@ -1,6 +1,6 @@
 import {Box, Text} from 'ink';
 import SelectInput from 'ink-select-input';
-import {Command} from '../types/command.js';
+import {Command} from '../services/types/command.js';
 
 export default function CommandSelect({
 	commands,

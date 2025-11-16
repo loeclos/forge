@@ -230,6 +230,17 @@ The backend provides the following main endpoints:
 
 ## Troubleshooting
 
+### Nothing shows up after message is sent
+
+If you just see a blank message box for a while, this could be for two reasons:
+1. The model you chose is too big and runs really slowly on your machine.
+2. The model you chose doesn't have tool integration.
+
+To fix 1, try pulling a smaller model from the same family (i.e. qwen3:0.6b instead of qwen3:7b) or you can just wait. The response should show up eventually. 
+
+For 2, you must make sure that the model you got supports tools. All models that allow tools are listed here: https://ollama.com/search?c=tools
+
+
 ### Ollama Connection Errors
 
 If you see "Ollama either not installed or not running":

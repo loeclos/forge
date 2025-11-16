@@ -1,9 +1,9 @@
 import {useState} from 'react';
 import {v4 as uuid4} from 'uuid';
-import {Message} from '../types/message.js';
+import {Message} from './types/message.js';
 import dotenv from 'dotenv';
 
-dotenv.config({path: '.env.local'});
+dotenv.config({path: '.env.local', quiet: true});
 
 export default function useMessageService(session_id: string | null) {
 	const [messages, setMessages] = useState<Message[]>([]);
@@ -18,8 +18,9 @@ export default function useMessageService(session_id: string | null) {
 	let localMessage: Message = {
 		id: newMessageId,
 		user: message,
-		model: '',
+		model: 'Loading response...',
 	};
+
 	setCurrentMessage(localMessage);
 
 	const response = await fetch(`${process.env['MAIN_ENDPOINT']}/api/chat`, {
@@ -37,6 +38,8 @@ export default function useMessageService(session_id: string | null) {
 	const reader = response.body.getReader();
 	const decoder = new TextDecoder();
 	let buffer = '';
+
+	localMessage.model = '';
 
 	while (true) {
 		const {value, done} = await reader.read();

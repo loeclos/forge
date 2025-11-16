@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import {useHttp} from '../hooks/http.hook.js';
 
-dotenv.config({path: '.env.local'});
+dotenv.config({path: '.env.local', quiet: true});
 
 export default function useModelService() {
 	const {request, clearError, status, setStatus} = useHttp();

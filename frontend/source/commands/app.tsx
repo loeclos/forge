@@ -1,26 +1,55 @@
 import dotenv from 'dotenv';
-import { Box, Newline, Text, useApp, useInput } from 'ink';
-import { useEffect, useState } from 'react';
+import {Box, Newline, Text, useApp, useInput} from 'ink';
+import {useEffect, useState} from 'react';
 import SecurityQuestionComponent from '../components/security-question.js';
 import Chat from './chat.js';
+import zod from 'zod';
+
+export const options = zod.object({
+	dir: zod
+		.string()
+		.nullable()
+		.describe('The active directory to start forge in.')
+		.default(null),
+});
+
+type Props = {
+	options: zod.infer<typeof options>;
+};
+
+dotenv.config({path: '.env.local', quiet: true});
 
 export const isDefault = true;
-dotenv.config({ path: ".env.local" });
 
 interface CwdResponse {
 	dir: string | undefined;
 	message: string | undefined;
 }
 
-export default function App() {
+export default function App({options}: Props) {
+
 	const [cwd, setCwd] = useState('');
 	const [proceedConsent, setProceedConsent] = useState(false);
 	const [lastKeyPressed, setLastKeyPressed] = useState('');
-	const [mainServerEndpoint, setMainServerEndpoint] = useState('http://127.0.0.1:8000');
-	const { exit } = useApp();
+	const [mainServerEndpoint, setMainServerEndpoint] = useState(
+		'http://127.0.0.1:8000',
+	);
+	const {exit} = useApp();
 
 	useEffect(() => {
-		setMainServerEndpoint(process.env['MAIN_ENDPOINT'] || 'http://127.0.0.1:8000');
+		setMainServerEndpoint(
+			process.env['MAIN_ENDPOINT'] || 'http://127.0.0.1:8000',
+		);
+	}, []);
+
+	useEffect(() => {
+		if (options.dir) {
+			fetch(`${mainServerEndpoint}/api/utils/change_cwd/`, {
+				method: 'POST',
+				body: JSON.stringify({dir: options.dir}),
+				headers: {'Content-Type': 'application/json'},
+			});
+		}
 	}, []);
 
 	useEffect(() => {
@@ -43,7 +72,7 @@ export default function App() {
 		if (key.escape) {
 			exit();
 		}
-		
+
 		if (lastKeyPressed === 'ctrl' && input === 'c') {
 			exit();
 		}
@@ -55,14 +84,15 @@ export default function App() {
 		<Box flexDirection="column" gap={1} flexWrap="wrap">
 			<Box>
 				<Text>
-				<Text color={'#6FA4AF'}> 
-					════════════════  <Newline />
-					╔═╗╔═╗╦═╗╔═╗╔═╗   <Newline />
-					╠╣ ║ ║╠╦╝║ ╦║╣    <Newline /> 
-					╚  ╚═╝╩╚═╚═╝╚═╝   <Newline />  
-					Agentic CLI       <Newline />
-					<Newline /><Newline />
-				</Text>
+					<Text color={'#6FA4AF'} >
+						════════════════ <Newline />
+						╔═╗╔═╗╦═╗╔═╗╔═╗ <Newline />
+						╠╣ ║ ║╠╦╝║ ╦║╣ <Newline />
+						╚  ╚═╝╩╚═╚═╝╚═╝ <Newline />
+						Agentic CLI <Newline />
+						<Newline />
+						<Newline />
+					</Text>
 					<Text color={'magentaBright'} bold>
 						Welcome to Forge!
 					</Text>
@@ -83,10 +113,7 @@ export default function App() {
 				/>
 			) : null}
 
-			{proceedConsent ? (
-				<Chat />
-			) : null}
+			{proceedConsent ? <Chat /> : null}
 		</Box>
 	);
 }
-

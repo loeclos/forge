@@ -2,7 +2,7 @@ import {Box, Text} from 'ink';
 import SelectInput from 'ink-select-input';
 import {useEffect, useState} from 'react';
 import useModelService from '../../services/use-models-service.js';
-import {Model} from '../../types/models.js';
+import {Model} from '../../services/types/models.js';
 import setContent from '../../utils/set-content.js';
 
 export default function ChangeModelComponent() {

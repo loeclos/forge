@@ -1,6 +1,6 @@
 import {Box, Text} from 'ink';
 import Divider from '../divider.js';
-import {Model} from '../../types/models.js';
+import {Model} from '../../services/types/models.js';
 import {useState, useEffect} from 'react';
 import useModelService from '../../services/use-models-service.js';
 import setContent from '../../utils/set-content.js';

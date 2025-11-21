@@ -5,11 +5,12 @@ import Input from '../components/input.js';
 import MenuComponent from '../components/menu.js';
 import MessagesComponent from '../components/messages.js';
 import useMessageService from '../services/use-message-service.js';
-import {Command} from '../types/command.js';
+import {Command} from '../services/types/command.js';
 
 export default function Chat() {
 	const [query, setQuery] = useState('');
-	const {sendAndRecieveMessage, messages, currentMessage} = useMessageService(null);
+	const {sendAndRecieveMessage, messages, currentMessage} =
+		useMessageService(null);
 
 	const defaultCommands: Command[] = [
 		{
@@ -55,20 +56,23 @@ export default function Chat() {
 			setSelectedCommand('');
 		} else {
 			setEnteringCommand(false);
-			setSelectedCommand('');
 		}
+	}, [query]);
 
+	useEffect(() => {
 		if (enteringCommand) {
 			const cmd = query.slice(1);
 
 			setPossibleCommands(() => {
-				const newCmds = defaultCommands.filter(command => command.name.includes(cmd));
+				const newCmds = defaultCommands.filter(command =>
+					command.name.includes(cmd),
+				);
 				return newCmds;
 			});
 		} else {
 			setPossibleCommands(defaultCommands);
 		}
-	}, [query]);
+	}, [enteringCommand]);
 
 	useEffect(() => {
 		if (selectedCommand === 'exit') {
@@ -81,11 +85,13 @@ export default function Chat() {
 		}
 	}, [selectedCommand]);
 
-
 	return (
 		<Box width={'100%'} flexDirection="column" gap={0} flexWrap="wrap">
 			<Box>
-				<MessagesComponent messages={messages} currentMessage={currentMessage} />
+				<MessagesComponent
+					messages={messages}
+					currentMessage={currentMessage}
+				/>
 			</Box>
 
 			{showMenu ? <MenuComponent componentKey={selectedCommand} /> : null}

@@ -1,5 +1,5 @@
 import {memo} from 'react';
-import {Message} from '../types/message.js';
+import {Message} from '../services/types/message.js';
 import {Box, Text} from 'ink';
 
 const CurrentMessageComponent = ({message}: {message: Message}) => {

@@ -11,11 +11,12 @@ A full-stack AI chat application with a FastAPI backend and TypeScript/React CLI
 - **Command System**: Built-in commands for model management and navigation
 
 ## Todos
-- [ ] 1. Add file reading/writing tools
+- [x] 1. Add file reading/writing tools
 - [ ] 2. Add tool confirmation capabilities.
 - [ ] 3. Add model downloading util at the frontend.
 - [ ] 4. Add command running tools for the models.
 - [ ] 5. Add MCP server support.
+- [ ] 6. Fix rerendering bugs in the frontend.
 
 ## Tech Stack
 
@@ -229,6 +230,17 @@ The backend provides the following main endpoints:
 - `GET /api/utils/getcwd` - Get current working directory
 
 ## Troubleshooting
+
+### Nothing shows up after message is sent
+
+If you just see a blank message box for a while, this could be for two reasons:
+1. The model you chose is too big and runs really slowly on your machine.
+2. The model you chose doesn't have tool integration.
+
+To fix 1, try pulling a smaller model from the same family (i.e. qwen3:0.6b instead of qwen3:7b) or you can just wait. The response should show up eventually. 
+
+For 2, you must make sure that the model you got supports tools. All models that allow tools are listed here: https://ollama.com/search?c=tools
+
 
 ### Ollama Connection Errors
 

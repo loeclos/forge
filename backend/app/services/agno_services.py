@@ -8,6 +8,7 @@ from agno.db.sqlite import SqliteDb
 
 from app.core.config import settings
 from app.tools.search_internet import search_internet
+from app.tools.file_tools import write_file, read_file, list_files_in_dir, get_current_dir
 import logging
 
 logger = logging.getLogger(__name__)
@@ -17,7 +18,7 @@ def create_agent(session_id: str) -> Agent:
     agent = Agent(
         model=Ollama(settings.MODEL), 
         session_id=session_id,
-        tools=[search_internet],
+        tools=[search_internet, write_file, read_file, list_files_in_dir, get_current_dir],
         db=SqliteDb(db_file="./db/chat_history.db"),
         add_history_to_context=True, 
         num_history_runs=5,  

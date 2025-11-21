@@ -1,0 +1,4 @@
+node_modules
+dist
+chat_history.db
+app.log

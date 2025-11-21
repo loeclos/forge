@@ -16,6 +16,7 @@ A full-stack AI chat application with a FastAPI backend and TypeScript/React CLI
 - [ ] 3. Add model downloading util at the frontend.
 - [ ] 4. Add command running tools for the models.
 - [ ] 5. Add MCP server support.
+- [ ] 6. Fix rerendering bugs in the frontend.
 
 ## Tech Stack
 

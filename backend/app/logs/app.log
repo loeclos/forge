@@ -2616,3 +2616,1047 @@
 {"timestamp": "2025-11-15T23:55:18.215427", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
 {"timestamp": "2025-11-15T23:55:21.742553", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
 {"timestamp": "2025-11-15T23:55:24.773798", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-17T17:52:45.734539", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [9628]", "extra": {}}
+{"timestamp": "2025-11-17T17:52:45.735497", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-17T17:52:45.735795", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-17T17:52:45.735907", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-17T17:52:45.747278", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-17T17:52:45.747406", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-17T17:52:45.748152", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-17T17:52:45.749214", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 216, "message": "Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)", "extra": {}}
+{"timestamp": "2025-11-17T17:54:38.093698", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-17T17:54:38.093825", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-17T17:54:44.229822", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_5480912611734994281", "extra": {}}
+{"timestamp": "2025-11-17T17:54:44.229961", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_5480912611734994281", "extra": {}}
+{"timestamp": "2025-11-17T17:54:44.232166", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_5480912611734994281", "extra": {}}
+{"timestamp": "2025-11-17T17:54:44.232307", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_5480912611734994281", "extra": {}}
+{"timestamp": "2025-11-17T17:55:31.687563", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_7317321418853951073", "extra": {}}
+{"timestamp": "2025-11-17T17:55:31.687718", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_7317321418853951073", "extra": {}}
+{"timestamp": "2025-11-17T17:55:31.688696", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_7317321418853951073", "extra": {}}
+{"timestamp": "2025-11-17T17:55:31.688814", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_7317321418853951073", "extra": {}}
+{"timestamp": "2025-11-17T17:58:01.993317", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_6886954371715611627", "extra": {}}
+{"timestamp": "2025-11-17T17:58:01.993440", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_6886954371715611627", "extra": {}}
+{"timestamp": "2025-11-17T17:58:01.994332", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_6886954371715611627", "extra": {}}
+{"timestamp": "2025-11-17T17:58:01.994500", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_6886954371715611627", "extra": {}}
+{"timestamp": "2025-11-17T17:59:09.284703", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-275101335329773527", "extra": {}}
+{"timestamp": "2025-11-17T17:59:09.284849", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-275101335329773527", "extra": {}}
+{"timestamp": "2025-11-17T17:59:09.285726", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-275101335329773527", "extra": {}}
+{"timestamp": "2025-11-17T17:59:09.285846", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-275101335329773527", "extra": {}}
+{"timestamp": "2025-11-17T18:00:18.033881", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_214905721651714459", "extra": {}}
+{"timestamp": "2025-11-17T18:00:18.034057", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_214905721651714459", "extra": {}}
+{"timestamp": "2025-11-17T18:00:18.035207", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_214905721651714459", "extra": {}}
+{"timestamp": "2025-11-17T18:00:18.035331", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_214905721651714459", "extra": {}}
+{"timestamp": "2025-11-17T18:01:02.905750", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7744147085561862558", "extra": {}}
+{"timestamp": "2025-11-17T18:01:02.905873", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7744147085561862558", "extra": {}}
+{"timestamp": "2025-11-17T18:01:02.906728", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7744147085561862558", "extra": {}}
+{"timestamp": "2025-11-17T18:01:02.906845", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7744147085561862558", "extra": {}}
+{"timestamp": "2025-11-17T18:01:21.687927", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_4851043504571177886", "extra": {}}
+{"timestamp": "2025-11-17T18:01:21.688053", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_4851043504571177886", "extra": {}}
+{"timestamp": "2025-11-17T18:01:21.688891", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_4851043504571177886", "extra": {}}
+{"timestamp": "2025-11-17T18:01:21.689010", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_4851043504571177886", "extra": {}}
+{"timestamp": "2025-11-17T18:01:53.470413", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_6039398198207723107", "extra": {}}
+{"timestamp": "2025-11-17T18:01:53.470641", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_6039398198207723107", "extra": {}}
+{"timestamp": "2025-11-17T18:01:53.471714", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_6039398198207723107", "extra": {}}
+{"timestamp": "2025-11-17T18:01:53.471838", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_6039398198207723107", "extra": {}}
+{"timestamp": "2025-11-17T18:04:23.912381", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7417285350296724965", "extra": {}}
+{"timestamp": "2025-11-17T18:04:23.912533", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7417285350296724965", "extra": {}}
+{"timestamp": "2025-11-17T18:04:23.913548", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7417285350296724965", "extra": {}}
+{"timestamp": "2025-11-17T18:04:23.913657", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7417285350296724965", "extra": {}}
+{"timestamp": "2025-11-17T18:04:36.950223", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_8537174010516366915", "extra": {}}
+{"timestamp": "2025-11-17T18:04:36.950343", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_8537174010516366915", "extra": {}}
+{"timestamp": "2025-11-17T18:04:36.951153", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_8537174010516366915", "extra": {}}
+{"timestamp": "2025-11-17T18:04:36.951242", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_8537174010516366915", "extra": {}}
+{"timestamp": "2025-11-17T18:04:38.979056", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-2659815311590986423", "extra": {}}
+{"timestamp": "2025-11-17T18:04:38.979211", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-2659815311590986423", "extra": {}}
+{"timestamp": "2025-11-17T18:04:38.980135", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-2659815311590986423", "extra": {}}
+{"timestamp": "2025-11-17T18:04:38.980231", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-2659815311590986423", "extra": {}}
+{"timestamp": "2025-11-17T18:04:40.996208", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6994725613115792815", "extra": {}}
+{"timestamp": "2025-11-17T18:04:40.996338", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6994725613115792815", "extra": {}}
+{"timestamp": "2025-11-17T18:04:40.997144", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6994725613115792815", "extra": {}}
+{"timestamp": "2025-11-17T18:04:40.997251", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6994725613115792815", "extra": {}}
+{"timestamp": "2025-11-17T18:04:43.049975", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3968650510386231349", "extra": {}}
+{"timestamp": "2025-11-17T18:04:43.050119", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3968650510386231349", "extra": {}}
+{"timestamp": "2025-11-17T18:04:43.051013", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3968650510386231349", "extra": {}}
+{"timestamp": "2025-11-17T18:04:43.051135", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3968650510386231349", "extra": {}}
+{"timestamp": "2025-11-17T18:04:45.103044", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_5170026192741474754", "extra": {}}
+{"timestamp": "2025-11-17T18:04:45.103174", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_5170026192741474754", "extra": {}}
+{"timestamp": "2025-11-17T18:04:45.104023", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_5170026192741474754", "extra": {}}
+{"timestamp": "2025-11-17T18:04:45.104134", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_5170026192741474754", "extra": {}}
+{"timestamp": "2025-11-17T18:04:47.129837", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-5087613846354734468", "extra": {}}
+{"timestamp": "2025-11-17T18:04:47.130003", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-5087613846354734468", "extra": {}}
+{"timestamp": "2025-11-17T18:04:47.130936", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-5087613846354734468", "extra": {}}
+{"timestamp": "2025-11-17T18:04:47.131042", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-5087613846354734468", "extra": {}}
+{"timestamp": "2025-11-17T18:04:49.143386", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_1075241456704747749", "extra": {}}
+{"timestamp": "2025-11-17T18:04:49.143495", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_1075241456704747749", "extra": {}}
+{"timestamp": "2025-11-17T18:04:49.144293", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_1075241456704747749", "extra": {}}
+{"timestamp": "2025-11-17T18:04:49.144394", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_1075241456704747749", "extra": {}}
+{"timestamp": "2025-11-17T18:05:31.478187", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-4292589544097463913", "extra": {}}
+{"timestamp": "2025-11-17T18:05:31.478426", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-4292589544097463913", "extra": {}}
+{"timestamp": "2025-11-17T18:05:31.479368", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-4292589544097463913", "extra": {}}
+{"timestamp": "2025-11-17T18:05:31.479474", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-4292589544097463913", "extra": {}}
+{"timestamp": "2025-11-17T18:05:56.130889", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-4081619569167822947", "extra": {}}
+{"timestamp": "2025-11-17T18:05:56.131060", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-4081619569167822947", "extra": {}}
+{"timestamp": "2025-11-17T18:05:56.131979", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-4081619569167822947", "extra": {}}
+{"timestamp": "2025-11-17T18:05:56.132104", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-4081619569167822947", "extra": {}}
+{"timestamp": "2025-11-17T18:09:53.752851", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_8715853503577849514", "extra": {}}
+{"timestamp": "2025-11-17T18:09:53.753012", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_8715853503577849514", "extra": {}}
+{"timestamp": "2025-11-17T18:09:53.753959", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_8715853503577849514", "extra": {}}
+{"timestamp": "2025-11-17T18:09:53.754045", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_8715853503577849514", "extra": {}}
+{"timestamp": "2025-11-18T07:39:46.980144", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [17616]", "extra": {}}
+{"timestamp": "2025-11-18T07:39:46.980953", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-18T07:39:46.981265", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-18T07:39:46.981399", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-18T07:39:46.992400", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-18T07:39:46.992543", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-18T07:39:46.993270", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-18T07:39:46.994144", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 216, "message": "Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)", "extra": {}}
+{"timestamp": "2025-11-18T07:40:09.637964", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_5714124292845487741", "extra": {}}
+{"timestamp": "2025-11-18T07:40:09.638123", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_5714124292845487741", "extra": {}}
+{"timestamp": "2025-11-18T07:40:09.639795", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_5714124292845487741", "extra": {}}
+{"timestamp": "2025-11-18T07:40:09.639876", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_5714124292845487741", "extra": {}}
+{"timestamp": "2025-11-18T07:41:12.674326", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-8731372139747034907", "extra": {}}
+{"timestamp": "2025-11-18T07:41:12.674465", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-8731372139747034907", "extra": {}}
+{"timestamp": "2025-11-18T07:41:12.675400", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-8731372139747034907", "extra": {}}
+{"timestamp": "2025-11-18T07:41:12.675513", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-8731372139747034907", "extra": {}}
+{"timestamp": "2025-11-18T07:43:53.196668", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_5164270923946451286", "extra": {}}
+{"timestamp": "2025-11-18T07:43:53.196805", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_5164270923946451286", "extra": {}}
+{"timestamp": "2025-11-18T07:43:53.197642", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_5164270923946451286", "extra": {}}
+{"timestamp": "2025-11-18T07:43:53.197757", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_5164270923946451286", "extra": {}}
+{"timestamp": "2025-11-18T07:53:25.121949", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-4060933364299764606", "extra": {}}
+{"timestamp": "2025-11-18T07:53:25.122073", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-4060933364299764606", "extra": {}}
+{"timestamp": "2025-11-18T07:53:25.123097", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-4060933364299764606", "extra": {}}
+{"timestamp": "2025-11-18T07:53:25.123207", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-4060933364299764606", "extra": {}}
+{"timestamp": "2025-11-18T07:54:28.089410", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:28.089559", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:28.090478", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:28.090628", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:28.092331", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:54:30.900058", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:54:33.547691", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-18T07:54:35.954340", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:35.954466", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:35.955402", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:35.955530", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:35.957112", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:54:36.192044", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:54:39.427838", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-18T07:54:53.272719", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:53.272847", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:53.273836", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:53.273942", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:54:53.275178", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:54:53.509839", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:54:56.258619", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-18T07:55:04.795537", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:55:04.795684", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:55:04.796598", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:55:04.796689", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:55:04.797877", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:55:05.006675", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:55:07.261295", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:55:12.196595", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:00.882151", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:00.882288", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:00.883258", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:00.883368", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:00.884528", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:01.261280", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:06.618633", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:25.323808", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:25.323922", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:25.324789", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:25.324879", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:25.326049", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:25.686457", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:32.123010", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:36.795973", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:36.796113", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:36.797050", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:36.797149", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:36.798351", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:37.313001", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:41.042181", "level": "INFO", "logger": "app.tools.file_tools", "module": "file_tools", "line": 90, "message": "File 'test.txt' written with mode 'w'.", "extra": {}}
+{"timestamp": "2025-11-18T07:56:41.042341", "level": "INFO", "logger": "app.tools.file_tools", "module": "file_tools", "line": 90, "message": "File 'test.txt' written with mode 'w'.", "extra": {}}
+{"timestamp": "2025-11-18T07:56:41.246193", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:45.847296", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:58.615548", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:58.615687", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:58.616703", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:58.616813", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-7104197564983958230", "extra": {}}
+{"timestamp": "2025-11-18T07:56:58.617903", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:56:59.131872", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-18T07:57:24.165681", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-20T23:23:45.165758", "level": "INFO", "logger": "uvicorn.error", "module": "config", "line": 321, "message": "Will watch for changes in these directories: ['F:\\\\Desktop\\\\Projects\\\\forge\\\\backend\\\\app']", "extra": {}}
+{"timestamp": "2025-11-20T23:23:45.166495", "level": "INFO", "logger": "uvicorn.error", "module": "config", "line": 542, "message": "Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)", "extra": {}}
+{"timestamp": "2025-11-20T23:23:45.167026", "level": "INFO", "logger": "uvicorn.error", "module": "basereload", "line": 80, "message": "Started reloader process [12016] using WatchFiles", "extra": {}}
+{"timestamp": "2025-11-20T23:23:46.299823", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [13224]", "extra": {}}
+{"timestamp": "2025-11-20T23:23:46.300475", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-20T23:23:46.300730", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-20T23:23:46.300817", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-20T23:23:46.311284", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-20T23:23:46.311404", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-20T23:23:46.312129", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-20T23:23:56.191520", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_5469104768375378809", "extra": {}}
+{"timestamp": "2025-11-20T23:23:56.191662", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_5469104768375378809", "extra": {}}
+{"timestamp": "2025-11-20T23:23:56.193096", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_5469104768375378809", "extra": {}}
+{"timestamp": "2025-11-20T23:23:56.193204", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_5469104768375378809", "extra": {}}
+{"timestamp": "2025-11-20T23:24:09.587540", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:09.587662", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:09.588640", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:09.588745", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:09.592316", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:24:09.632785", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 404 Not Found\"", "extra": {}}
+{"timestamp": "2025-11-20T23:24:48.775004", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:48.775139", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:48.776242", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:48.776352", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:48.777444", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:24:48.812657", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 404 Not Found\"", "extra": {}}
+{"timestamp": "2025-11-20T23:24:52.426721", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:52.426856", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:52.427842", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:52.427956", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:24:52.428810", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:24:52.456094", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 404 Not Found\"", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.113854", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 68, "message": "Fetching all available models from Ollama.", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.113999", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is Whatqwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.114161", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 68, "message": "Fetching all available models from Ollama.", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.114852", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is Whatqwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.119828", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/tags \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120604", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120643", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120695", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3n:e2b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120721", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3n:e2b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120763", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3:270m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120786", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3:270m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120825", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:7b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120849", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:7b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120889", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:14b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120913", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:14b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120952", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:4b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.120975", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:4b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121013", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:20b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121036", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:20b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121099", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss-sarcastic-20B:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121143", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss-sarcastic-20B:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121205", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: loeclos/bard:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121230", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: loeclos/bard:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121277", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121302", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121341", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121368", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121407", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121431", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121468", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama3.2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121490", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama3.2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121607", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 78, "message": "Returning 13 models.", "extra": {}}
+{"timestamp": "2025-11-20T23:25:14.121723", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 78, "message": "Returning 13 models.", "extra": {}}
+{"timestamp": "2025-11-20T23:25:17.905153", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 113, "message": "Changing current model to granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:17.905320", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 113, "message": "Changing current model to granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:17.909529", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/tags \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:25:17.910571", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:17.910617", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:17.910783", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 121, "message": "Model changed to granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:17.910897", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 121, "message": "Model changed to granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:21.738627", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:25:21.738781", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:25:21.739756", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:25:21.739848", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:25:21.740727", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:25:24.193450", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:25:24.381329", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-20T23:25:24.819698", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-20T23:25:25.545136", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-20T23:25:40.046655", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:40.046792", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:25:47.906800", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-20T23:25:47.909001", "level": "WARNING", "logger": "uvicorn.error", "module": "basereload", "line": 55, "message": "WatchFiles detected changes in 'core\\config.py'. Reloading...", "extra": {}}
+{"timestamp": "2025-11-20T23:25:48.007307", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 264, "message": "Shutting down", "extra": {}}
+{"timestamp": "2025-11-20T23:25:48.121752", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 67, "message": "Waiting for application shutdown.", "extra": {}}
+{"timestamp": "2025-11-20T23:25:48.121982", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-20T23:25:48.122136", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-20T23:25:48.122898", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 76, "message": "Application shutdown complete.", "extra": {}}
+{"timestamp": "2025-11-20T23:25:48.123465", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 94, "message": "Finished server process [13224]", "extra": {}}
+{"timestamp": "2025-11-20T23:25:48.638586", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-20T23:25:49.099511", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "5 changes detected", "extra": {}}
+{"timestamp": "2025-11-20T23:25:49.385805", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [11240]", "extra": {}}
+{"timestamp": "2025-11-20T23:25:49.386442", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-20T23:25:49.386717", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-20T23:25:49.386822", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-20T23:25:49.387640", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-20T23:25:49.387739", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-20T23:25:49.388297", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-20T23:26:00.470329", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:26:00.470533", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:26:00.471942", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:26:00.472052", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:26:00.473766", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:26:00.797286", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:26:00.945929", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:26:01.155335", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-20T23:26:01.460088", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-20T23:26:02.273374", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-20T23:26:15.045473", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:26:15.045600", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:26:15.046558", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:26:15.046669", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:26:15.047818", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:26:15.492717", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:26:15.680014", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:26:16.144483", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-20T23:26:16.437499", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-20T23:26:17.253567", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.486535", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.486702", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 68, "message": "Fetching all available models from Ollama.", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.486817", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.486941", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 68, "message": "Fetching all available models from Ollama.", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.493310", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/tags \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.493744", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.493779", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.493829", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.493855", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.493899", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3n:e2b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.493925", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3n:e2b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.493965", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3:270m", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.493990", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3:270m", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494029", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:7b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494053", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:7b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494091", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:14b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494115", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:14b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494153", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:4b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494175", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:4b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494214", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:20b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494237", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:20b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494341", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss-sarcastic-20B:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494369", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss-sarcastic-20B:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494410", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: loeclos/bard:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494434", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: loeclos/bard:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494472", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494495", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494533", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494557", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494595", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494619", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494656", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama3.2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494679", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama3.2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494792", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 78, "message": "Returning 14 models.", "extra": {}}
+{"timestamp": "2025-11-20T23:28:54.494877", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 78, "message": "Returning 14 models.", "extra": {}}
+{"timestamp": "2025-11-20T23:28:56.151107", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 113, "message": "Changing current model to granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:56.151251", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 113, "message": "Changing current model to granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:56.155681", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/tags \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:28:56.156238", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:56.156290", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:56.156475", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 121, "message": "Model changed to granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:28:56.156608", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 121, "message": "Model changed to granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:29:09.270141", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:29:09.270305", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:29:09.271610", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:29:09.271727", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:29:09.273043", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:29:15.073654", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:29:15.693828", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:29:16.463538", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-20T23:29:16.869086", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-20T23:29:17.634598", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-20T23:29:27.451516", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:29:27.451657", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:29:27.452696", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:29:27.452807", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_3223313630180246556", "extra": {}}
+{"timestamp": "2025-11-20T23:29:27.454408", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:29:28.955603", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:29:29.629872", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:29:31.748902", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-20T23:29:32.029787", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-20T23:29:32.869534", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-20T23:31:23.163440", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-20T23:31:23.163571", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-20T23:31:23.164726", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-20T23:31:23.164831", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-20T23:31:23.166021", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:31:23.636611", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:31:47.685074", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-20T23:31:48.031192", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-20T23:31:48.849222", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-20T23:32:10.763588", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-20T23:32:10.763705", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-20T23:32:10.764587", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-20T23:32:10.764666", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-20T23:32:10.765865", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:32:13.243383", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:32:13.471650", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-20T23:32:14.581642", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-20T23:34:07.737907", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:07.738053", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.042441", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 68, "message": "Fetching all available models from Ollama.", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.042671", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 68, "message": "Fetching all available models from Ollama.", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.043061", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.043292", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.052439", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/tags \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.052877", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.052911", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.052957", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.052982", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053022", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3n:e2b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053045", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3n:e2b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053085", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3:270m", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053109", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3:270m", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053148", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:7b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053171", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:7b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053209", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:14b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053232", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:14b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053270", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:4b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053293", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:4b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053330", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:20b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053354", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:20b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053451", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss-sarcastic-20B:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053483", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss-sarcastic-20B:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053529", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: loeclos/bard:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053555", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: loeclos/bard:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053597", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053621", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053661", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053685", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053724", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053748", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053786", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama3.2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053809", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama3.2:latest", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.053917", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 78, "message": "Returning 14 models.", "extra": {}}
+{"timestamp": "2025-11-20T23:34:12.054014", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 78, "message": "Returning 14 models.", "extra": {}}
+{"timestamp": "2025-11-20T23:34:14.977844", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 113, "message": "Changing current model to granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:14.978003", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 113, "message": "Changing current model to granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:14.982521", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/tags \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-20T23:34:14.983062", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:14.983106", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:14.983249", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 121, "message": "Model changed to granite4:3b", "extra": {}}
+{"timestamp": "2025-11-20T23:34:14.983354", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 121, "message": "Model changed to granite4:3b", "extra": {}}
+{"timestamp": "2025-11-21T00:19:50.480083", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-21T00:19:50.480292", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-21T00:19:50.481230", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-21T00:19:50.481323", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-2848837942310546278", "extra": {}}
+{"timestamp": "2025-11-21T00:19:50.482630", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:19:58.628333", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:20:01.166791", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:20:01.824429", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:20:09.054043", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-21T00:20:09.408421", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-21T00:20:10.214415", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:21:24.570299", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:24.570439", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:24.571452", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:24.571585", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:24.574712", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:21:24.820742", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:21:25.853370", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-21T00:21:26.492710", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-21T00:21:29.708356", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:29.708487", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:29.709322", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:29.709413", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:29.710704", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:21:29.776677", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:21:31.409056", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:21:32.178182", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:21:44.809648", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-21T00:21:45.131754", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-21T00:21:45.979957", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:21:54.310016", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:54.310151", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:54.311073", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:54.311173", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:21:54.312325", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:21:56.113174", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:21:56.877491", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:22:04.072107", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-21T00:22:04.750175", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-21T00:22:05.199505", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:22:05.199622", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:22:05.200491", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:22:05.200595", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_971439612881145045", "extra": {}}
+{"timestamp": "2025-11-21T00:22:05.201828", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:22:05.230661", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:22:06.844070", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:22:07.632263", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T00:22:14.910014", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-21T00:22:15.228377", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-21T00:22:15.411418", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:24:43.774217", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:24:59.217603", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:24:59.570781", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:24:59.923722", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:00.275990", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:00.627968", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:00.990614", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:01.357381", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:01.716741", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:02.068915", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:02.425758", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:02.789601", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:03.191336", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:03.556610", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:03.960169", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:04.374470", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:04.740738", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:05.157126", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:05.523920", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:05.926389", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:06.340473", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:06.706925", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:07.121965", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:07.474517", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:07.926238", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:08.339510", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:08.741299", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:09.105377", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:09.462091", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:09.874020", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:10.290435", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:10.693902", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:11.107011", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:11.523861", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:11.890534", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:12.307087", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:12.673520", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:13.090302", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:13.507386", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:13.873673", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:14.290088", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:14.641041", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:15.056454", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:15.458035", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:15.873907", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:16.440419", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:16.807329", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:17.224290", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:17.640877", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:18.057846", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:18.423821", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:18.839354", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:19.240992", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:19.656914", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:20.023108", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:20.425082", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:20.826785", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:21.230176", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:21.591414", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:21.992321", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:22.406422", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:22.808442", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:23.223342", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:23.625369", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:23.984809", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:24.440525", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:24.806278", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:25.224503", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:25.590218", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:25.992098", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:26.406396", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:26.822835", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:27.239089", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:27.591110", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:28.007294", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:28.422472", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:28.824879", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:29.190540", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:29.604843", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:30.005567", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:30.357646", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:30.772742", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:31.174660", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:31.588056", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:32.090631", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:32.507353", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:32.918104", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:33.274350", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:33.689904", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:34.091419", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:34.506479", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:34.908384", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:35.322887", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:35.674282", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:36.090966", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:36.506366", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:36.907716", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:37.323713", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:37.689921", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:38.106427", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:38.507948", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:38.924605", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:39.340152", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:39.706523", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:40.123081", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:40.524585", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:40.890436", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:41.296754", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:41.706744", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:42.122526", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:42.523593", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:42.889432", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:43.291865", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:43.706179", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:44.123214", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:44.539673", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:44.890880", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:45.306444", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:45.715856", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:46.122432", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:46.524129", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:46.889535", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:47.306275", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:47.709198", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:48.073194", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:48.475424", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:48.890621", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:49.305660", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:49.656786", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:50.072884", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:50.489566", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:50.856236", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:51.258257", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:51.673757", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:52.089865", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:52.456389", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:52.873587", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:53.390086", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:53.806249", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:54.208454", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:54.622559", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:54.989565", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:55.391505", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:55.806797", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:56.224200", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:56.639618", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:57.041612", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:57.457201", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:57.872858", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:58.223427", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:58.625392", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:59.039487", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:59.392113", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:25:59.755518", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:00.107195", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:00.472853", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:00.839495", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:01.192140", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:01.557918", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:01.922052", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:02.275791", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:02.641636", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:03.005341", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:03.356179", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:03.707316", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:04.073037", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:04.423973", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:04.774921", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:05.139464", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:05.503980", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:05.855972", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:06.222492", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:06.587421", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:06.939922", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:07.305799", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:07.672418", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:08.039172", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:08.390470", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:08.756001", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:09.107155", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:09.472752", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:09.924635", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:10.280539", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:10.639326", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:10.990317", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:11.345719", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:11.708400", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:12.074037", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:12.439907", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:12.806047", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:13.161947", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:13.522026", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:13.873212", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:14.229234", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:14.594668", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:14.956526", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:15.322702", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:15.673281", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:16.039066", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:16.392144", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:16.756876", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:17.109652", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:17.469587", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:17.824238", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:18.185756", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:18.540220", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:18.897818", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:19.255140", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:19.606972", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:19.959681", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:20.323456", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:20.675809", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:21.039656", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:21.405605", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:21.772979", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:22.137111", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:22.502629", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:22.857246", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:23.222038", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:23.586778", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:23.939021", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:24.304405", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:24.655474", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:25.007968", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:25.372430", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:25.723785", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:26.090234", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:26.441815", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:26.805445", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:27.157320", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:27.522387", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:27.873326", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:28.240230", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:28.605871", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:28.971807", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:29.324502", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:29.689648", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:30.053143", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:30.406886", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:30.758931", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:31.122866", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:31.487988", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:31.840518", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:32.203446", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:32.556545", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:32.913292", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:33.271931", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:33.622816", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:33.989509", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:34.354388", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:34.722410", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:35.088182", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:35.439083", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:35.792036", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:36.155674", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:36.520344", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:36.872830", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:37.226749", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:37.588910", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:37.953285", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:38.305247", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:38.672142", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:39.023147", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:39.373797", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:39.739596", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:40.092380", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:40.456025", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:40.821389", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:41.173590", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:41.539832", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:41.893381", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:42.255958", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:42.621932", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:42.973749", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:43.325299", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:43.687816", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:44.042427", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:44.404664", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:44.756265", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:45.116242", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:45.471569", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:45.836762", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:46.206701", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:46.573320", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:46.938704", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:47.290465", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:47.653616", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:48.006876", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:48.372929", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:48.738315", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:49.101399", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:49.457109", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:49.818128", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:50.170485", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:50.522721", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:50.873104", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:51.225100", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:51.587147", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:51.952248", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:52.303239", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:52.655673", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:53.006428", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:53.362756", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:53.722060", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:54.089331", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:54.453981", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:54.805495", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:55.169707", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:55.523172", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:55.888482", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:56.253335", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:56.609652", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:56.971032", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:57.322318", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:57.681442", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:58.033708", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:58.388445", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:58.754325", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:59.106263", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:59.472527", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:26:59.837294", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:00.191955", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:00.556297", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:00.922957", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:01.288718", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:01.654130", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:02.011206", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:02.373071", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:02.735455", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:03.088214", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:03.455141", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:03.807418", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:04.167737", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:04.521485", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:04.873204", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:05.233226", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:05.587899", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:05.938518", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:06.290030", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:06.656075", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:07.022271", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:07.388164", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:07.739061", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:08.104692", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:08.456696", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:08.808937", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:09.171381", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:09.523731", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:09.887937", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:10.239605", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:10.604812", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:10.967922", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:11.321295", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:11.672746", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:12.038684", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:12.405189", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:12.771029", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:13.122734", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:13.473661", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:13.836842", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:14.187492", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:14.546908", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:14.906032", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:15.261361", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:15.619755", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:15.984712", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:16.345365", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:16.706565", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:17.057578", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:17.421672", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:17.774278", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:18.138925", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:18.497846", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:18.864572", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:19.222821", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:19.582852", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:19.936471", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:20.288397", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:20.654336", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:21.005615", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:21.371006", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:21.722427", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:22.087018", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:22.439159", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:22.790715", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:23.144406", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:23.496960", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:23.850450", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:24.221451", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:24.583147", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:24.938147", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:25.290043", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:25.654981", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:26.056682", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:26.469964", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:26.870695", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:27.279864", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:27.686977", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:28.038511", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:28.443732", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:28.856365", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:29.272301", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:29.638201", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:30.040013", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:30.454912", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:30.856550", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:31.307965", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:31.671669", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:32.073732", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:32.438312", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:32.842159", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:33.256273", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:33.672004", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:34.023871", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:34.440116", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:34.854777", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:35.218997", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:35.623441", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:36.035965", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:36.437896", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:36.804653", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:37.206239", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:37.621708", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:38.038161", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:38.440015", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:38.796891", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:39.204951", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:39.621445", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:40.023090", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:40.438048", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:40.846069", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:41.254678", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:41.670139", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:42.073019", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:42.482252", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:42.888283", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:43.301873", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:43.705048", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:44.070222", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:44.482131", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:44.888498", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:45.304213", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:45.705398", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:46.064086", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:46.471334", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:46.872570", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:47.289140", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:47.705359", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:48.071178", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:48.485342", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:48.888550", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:49.303972", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:49.717599", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:50.120912", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:50.483203", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:50.888328", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:51.339770", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:51.702562", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:52.118401", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:52.521358", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:52.936559", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:53.338585", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:53.748768", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:54.155367", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:54.561417", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:54.967047", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:55.372273", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:55.786884", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:56.191642", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:56.604591", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:56.970336", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:57.373228", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:57.782613", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:58.134349", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:58.587433", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:58.947114", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:59.354622", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:27:59.768325", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:00.172541", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:00.586776", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:00.938508", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:01.343788", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:01.705329", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:02.114794", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:02.521458", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:02.927546", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:03.336609", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:03.742867", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:04.154340", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:04.566869", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:04.971239", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:05.387823", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:05.793741", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:06.202574", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:06.569456", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:06.971474", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:07.438092", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:07.796542", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:08.202648", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:08.604326", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:09.005794", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:09.420929", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:09.833141", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:10.238448", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:10.651193", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:11.054553", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:11.471323", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:11.836137", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:12.248637", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:12.651067", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:13.054383", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:13.471548", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:13.877583", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:14.280883", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:14.633561", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:15.037517", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:15.450259", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:15.863672", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:16.227687", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:16.636077", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:17.104894", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:17.514079", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:17.929471", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:18.294201", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:18.701927", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:19.102931", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:19.455233", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:19.869094", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:20.270099", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:20.635539", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:21.047923", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:21.453222", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:21.855582", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:22.258376", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:22.670659", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:23.080204", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:23.438491", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:23.849178", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:24.303612", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:24.669960", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:25.136219", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:25.538802", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:25.899214", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:26.304522", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:26.721042", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:27.134819", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:27.547498", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:27.904613", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:28.307798", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:28.721093", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:29.136632", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:29.548386", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:29.950136", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:30.354547", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:30.765184", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:31.123418", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:31.575945", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:31.987660", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:32.400999", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:32.755509", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:33.167813", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:33.570184", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:33.972324", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:34.387968", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:34.798390", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:35.201778", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:35.604743", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:35.964844", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:36.380226", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:36.781601", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:37.196429", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:37.604583", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:38.016759", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:38.419915", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:38.770632", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:39.180322", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:39.593187", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:39.957302", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:40.360877", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:40.764624", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:41.165725", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}

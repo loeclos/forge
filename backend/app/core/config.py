@@ -7,7 +7,7 @@ load_dotenv()
 class Settings(BaseSettings):
     APP_NAME: str = "Forge"
     DATABASE_URL: str = "sqlite:///./test.db"
-    MODEL: str = "qwen3:0.6b" 
+    MODEL: str = "granite4:350m" 
     TAVILY_API_KEY: str = os.getenv('TAVILY_API_KEY')
     CURRENT_DIR: str = "/"
 

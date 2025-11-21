@@ -12,70 +12,73 @@ export default function useMessageService(session_id: string | null) {
 	const [status, setStatus] = useState('waiting');
 
 	const sendAndRecieveMessage = async (message: string) => {
-	const newMessageId = uuid4();
-	setStatus('loading');
+		const newMessageId = uuid4();
+		setStatus('loading');
 
-	let localMessage: Message = {
-		id: newMessageId,
-		user: message,
-		model: 'Loading response...',
-	};
+		let localMessage: Message = {
+			id: newMessageId,
+			user: message,
+			model: 'Loading response...',
+		};
 
-	setCurrentMessage(localMessage);
+		setCurrentMessage(localMessage);
 
-	const response = await fetch(`${process.env['MAIN_ENDPOINT']}/api/chat`, {
-		method: 'POST',
-		body: JSON.stringify({
-			message,
-			session_id: sessionId,
-			stream: true,
-		}),
-		headers: {'Content-Type': 'application/json'},
-	});
+		const response = await fetch(`${process.env['MAIN_ENDPOINT']}/api/chat`, {
+			method: 'POST',
+			body: JSON.stringify({
+				message,
+				session_id: sessionId,
+				stream: true,
+			}),
+			headers: {'Content-Type': 'application/json'},
+		});
 
-	if (!response.body) throw new Error('No response body');
+		if (!response.body) throw new Error('No response body');
 
-	const reader = response.body.getReader();
-	const decoder = new TextDecoder();
-	let buffer = '';
-
-	localMessage.model = '';
-
-	while (true) {
-		const {value, done} = await reader.read();
-		if (done) break;
-		buffer += decoder.decode(value, {stream: true});
-
-		const parts = buffer.split('\n\n');
-		for (let i = 0; i < parts.length - 1; i++) {
-			const line = parts[i]?.trim();
-			if (!line?.startsWith('data: ')) continue;
-
-			const data = line.replace('data: ', '');
-			if (data === '[DONE]') {
-				setStatus('waiting');
-				setMessages(prev => [...prev, localMessage]);
-				setCurrentMessage(null);
-				return;
-			}
-
-			try {
-				const parsed = JSON.parse(data);
-				if (!sessionId && parsed.session_id) setSessionId(parsed.session_id);
-
-				if (parsed.content) {
-					localMessage.model += parsed.content;
-					setCurrentMessage({...localMessage}); // just for live UI updates
-				}
-			} catch (e) {
-				console.error('Failed to parse chunk', e, data);
-			}
+		if (!response.ok) {
+			setCurrentMessage({...localMessage, model: `[SERVER RETURENED ${response.status}] ${response.statusText}`});
 		}
 
-		buffer = parts[parts.length - 1] ?? '';
-	}
-};
+		const reader = response.body.getReader();
+		const decoder = new TextDecoder();
+		let buffer = '';
 
+		localMessage.model = '';
+
+		while (true) {
+			const {value, done} = await reader.read();
+			if (done) break;
+			buffer += decoder.decode(value, {stream: true});
+
+			const parts = buffer.split('\n\n');
+			for (let i = 0; i < parts.length - 1; i++) {
+				const line = parts[i]?.trim();
+				if (!line?.startsWith('data: ')) continue;
+
+				const data = line.replace('data: ', '');
+				if (data === '[DONE]') {
+					setStatus('waiting');
+					setMessages(prev => [...prev, localMessage]);
+					setCurrentMessage(null);
+					return;
+				}
+
+				try {
+					const parsed = JSON.parse(data);
+					if (!sessionId && parsed.session_id) setSessionId(parsed.session_id);
+
+					if (parsed.content) {
+						localMessage.model += parsed.content;
+						setCurrentMessage({...localMessage}); // just for live UI updates
+					}
+				} catch (e) {
+					console.error('Failed to parse chunk', e, data);
+				}
+			}
+
+			buffer = parts[parts.length - 1] ?? '';
+		}
+	};
 
 	return {
 		sendAndRecieveMessage,
@@ -83,6 +86,6 @@ export default function useMessageService(session_id: string | null) {
 		messages,
 		status,
 		setStatus,
-		currentMessage
+		currentMessage,
 	};
 }

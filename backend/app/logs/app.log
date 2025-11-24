@@ -3660,3 +3660,382 @@
 {"timestamp": "2025-11-21T00:28:40.360877", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
 {"timestamp": "2025-11-21T00:28:40.764624", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
 {"timestamp": "2025-11-21T00:28:41.165725", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:41.582894", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:41.936999", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:42.439178", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:42.853865", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:43.255656", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:43.620485", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:44.021567", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:44.436226", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:44.796399", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:45.154877", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:45.506883", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:45.859596", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:46.223199", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:46.582652", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:46.934528", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:47.286686", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:47.648703", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:48.003086", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:48.404428", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:48.806229", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:49.216619", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:49.621388", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:49.972972", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:50.385530", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:50.798016", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:51.203721", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:51.570179", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:51.986318", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:52.388127", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:52.803627", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:53.154686", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:53.570132", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:53.971333", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:54.322652", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:54.724191", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:55.134252", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:55.491010", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:55.900468", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:56.301262", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:56.702297", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:57.115875", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T00:28:57.367350", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 264, "message": "Shutting down", "extra": {}}
+{"timestamp": "2025-11-21T00:28:57.470617", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 67, "message": "Waiting for application shutdown.", "extra": {}}
+{"timestamp": "2025-11-21T00:28:57.470982", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-21T00:28:57.471084", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-21T00:28:57.471636", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 76, "message": "Application shutdown complete.", "extra": {}}
+{"timestamp": "2025-11-21T00:28:57.472373", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 94, "message": "Finished server process [11240]", "extra": {}}
+{"timestamp": "2025-11-21T00:28:57.630280", "level": "INFO", "logger": "uvicorn.error", "module": "basereload", "line": 116, "message": "Stopping reloader process [12016]", "extra": {}}
+{"timestamp": "2025-11-21T16:43:57.022788", "level": "INFO", "logger": "uvicorn.error", "module": "config", "line": 321, "message": "Will watch for changes in these directories: ['F:\\\\Desktop\\\\Projects\\\\forge\\\\backend\\\\app']", "extra": {}}
+{"timestamp": "2025-11-21T16:43:57.023549", "level": "INFO", "logger": "uvicorn.error", "module": "config", "line": 542, "message": "Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)", "extra": {}}
+{"timestamp": "2025-11-21T16:43:57.024145", "level": "INFO", "logger": "uvicorn.error", "module": "basereload", "line": 80, "message": "Started reloader process [19380] using WatchFiles", "extra": {}}
+{"timestamp": "2025-11-21T16:43:58.216326", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [21688]", "extra": {}}
+{"timestamp": "2025-11-21T16:43:58.216957", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-21T16:43:58.217214", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-21T16:43:58.217302", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-21T16:43:58.218127", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-21T16:43:58.218234", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-21T16:43:58.218848", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-21T16:44:30.007713", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:44:30.007848", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:44:30.008795", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:44:30.008906", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:44:30.011065", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T16:44:33.995320", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T16:44:34.021939", "level": "INFO", "logger": "app.tools.file_tools", "module": "file_tools", "line": 90, "message": "File 'example.txt' written with mode 'wt'.", "extra": {}}
+{"timestamp": "2025-11-21T16:44:34.022077", "level": "INFO", "logger": "app.tools.file_tools", "module": "file_tools", "line": 90, "message": "File 'example.txt' written with mode 'wt'.", "extra": {}}
+{"timestamp": "2025-11-21T16:44:34.107656", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T16:44:34.153694", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T16:44:34.561758", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-21T16:44:34.969094", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-21T16:44:35.782483", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T16:45:01.099372", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T16:45:14.312286", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:45:14.312401", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:45:14.313312", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:45:14.313392", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:45:14.314611", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T16:45:14.644638", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T16:45:14.800131", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T16:45:15.146039", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-21T16:45:15.425818", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-21T16:45:16.264317", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-21T16:45:38.528557", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:45:38.528696", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:45:38.529689", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:45:38.529787", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_7250866258478580488", "extra": {}}
+{"timestamp": "2025-11-21T16:45:38.530955", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T16:45:39.005402", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T16:45:39.175844", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-21T16:45:39.518743", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-21T16:45:39.919857", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-21T16:45:40.679861", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:12:31.757527", "level": "INFO", "logger": "uvicorn.error", "module": "config", "line": 321, "message": "Will watch for changes in these directories: ['F:\\\\Desktop\\\\Projects\\\\forge\\\\backend\\\\app']", "extra": {}}
+{"timestamp": "2025-11-22T00:12:31.758481", "level": "INFO", "logger": "uvicorn.error", "module": "config", "line": 542, "message": "Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)", "extra": {}}
+{"timestamp": "2025-11-22T00:12:31.759136", "level": "INFO", "logger": "uvicorn.error", "module": "basereload", "line": 80, "message": "Started reloader process [21404] using WatchFiles", "extra": {}}
+{"timestamp": "2025-11-22T00:12:32.889354", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [12136]", "extra": {}}
+{"timestamp": "2025-11-22T00:12:32.890008", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-22T00:12:32.890654", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:12:32.890950", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:12:32.904273", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:12:32.904602", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:12:32.905257", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:14:07.646075", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:14:07.647859", "level": "WARNING", "logger": "uvicorn.error", "module": "basereload", "line": 55, "message": "WatchFiles detected changes in 'api\\v1\\util_routes.py'. Reloading...", "extra": {}}
+{"timestamp": "2025-11-22T00:14:07.729750", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 264, "message": "Shutting down", "extra": {}}
+{"timestamp": "2025-11-22T00:14:07.844805", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 67, "message": "Waiting for application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:14:07.845028", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:14:07.845142", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:14:07.845681", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 76, "message": "Application shutdown complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:14:07.846333", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 94, "message": "Finished server process [12136]", "extra": {}}
+{"timestamp": "2025-11-22T00:14:08.362777", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:14:09.168623", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [8372]", "extra": {}}
+{"timestamp": "2025-11-22T00:14:09.169322", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-22T00:14:09.169623", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:14:09.169738", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:14:09.170570", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:14:09.170667", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:14:09.171205", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:14:09.232824", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "5 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:16:35.160018", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:16:35.160803", "level": "WARNING", "logger": "uvicorn.error", "module": "basereload", "line": 55, "message": "WatchFiles detected changes in 'api\\v1\\util_routes.py'. Reloading...", "extra": {}}
+{"timestamp": "2025-11-22T00:16:35.210695", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 264, "message": "Shutting down", "extra": {}}
+{"timestamp": "2025-11-22T00:16:35.312382", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 67, "message": "Waiting for application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:16:35.312585", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:16:35.312663", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:16:35.313143", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 76, "message": "Application shutdown complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:16:35.313613", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 94, "message": "Finished server process [8372]", "extra": {}}
+{"timestamp": "2025-11-22T00:16:35.777809", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:16:36.590876", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [21840]", "extra": {}}
+{"timestamp": "2025-11-22T00:16:36.591477", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-22T00:16:36.591728", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:16:36.591808", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:16:36.592617", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:16:36.592738", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:16:36.593355", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:16:36.683010", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "5 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:17:04.321090", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:17:04.322033", "level": "WARNING", "logger": "uvicorn.error", "module": "basereload", "line": 55, "message": "WatchFiles detected changes in 'api\\v1\\util_routes.py'. Reloading...", "extra": {}}
+{"timestamp": "2025-11-22T00:17:04.411298", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 264, "message": "Shutting down", "extra": {}}
+{"timestamp": "2025-11-22T00:17:04.525845", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 67, "message": "Waiting for application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:04.526107", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:04.526222", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:04.526783", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 76, "message": "Application shutdown complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:04.527344", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 94, "message": "Finished server process [21840]", "extra": {}}
+{"timestamp": "2025-11-22T00:17:04.993928", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:17:05.792143", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [6528]", "extra": {}}
+{"timestamp": "2025-11-22T00:17:05.792835", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:05.793139", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:17:05.793431", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:17:05.794297", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:17:05.794405", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:17:05.794972", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:05.848574", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "5 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:17:26.905463", "level": "ERROR", "logger": "uvicorn.error", "module": "httptools_impl", "line": 414, "message": "Exception in ASGI application\n", "extra": {}}
+{"timestamp": "2025-11-22T00:17:39.232260", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:17:39.233195", "level": "WARNING", "logger": "uvicorn.error", "module": "basereload", "line": 55, "message": "WatchFiles detected changes in 'api\\v1\\util_routes.py'. Reloading...", "extra": {}}
+{"timestamp": "2025-11-22T00:17:39.261478", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 264, "message": "Shutting down", "extra": {}}
+{"timestamp": "2025-11-22T00:17:39.377126", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 67, "message": "Waiting for application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:39.377353", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:39.377470", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:39.378065", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 76, "message": "Application shutdown complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:39.378595", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 94, "message": "Finished server process [6528]", "extra": {}}
+{"timestamp": "2025-11-22T00:17:39.842077", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:17:40.638324", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [17764]", "extra": {}}
+{"timestamp": "2025-11-22T00:17:40.638962", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:40.639233", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:17:40.639354", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:17:40.640316", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:17:40.640433", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:17:40.641089", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:17:40.696473", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "5 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:18:08.659365", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_1412831399933972532", "extra": {}}
+{"timestamp": "2025-11-22T00:18:08.659521", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_1412831399933972532", "extra": {}}
+{"timestamp": "2025-11-22T00:18:08.661157", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_1412831399933972532", "extra": {}}
+{"timestamp": "2025-11-22T00:18:08.661328", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_1412831399933972532", "extra": {}}
+{"timestamp": "2025-11-22T00:18:08.669922", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:18:13.376302", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:18:13.525171", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:18:14.288933", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-22T00:19:46.852749", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:19:46.853714", "level": "WARNING", "logger": "uvicorn.error", "module": "basereload", "line": 55, "message": "WatchFiles detected changes in 'api\\v1\\util_routes.py'. Reloading...", "extra": {}}
+{"timestamp": "2025-11-22T00:19:46.956975", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 264, "message": "Shutting down", "extra": {}}
+{"timestamp": "2025-11-22T00:19:47.059261", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 67, "message": "Waiting for application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:19:47.059494", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:19:47.059613", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:19:47.060172", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 76, "message": "Application shutdown complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:19:47.060731", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 94, "message": "Finished server process [17764]", "extra": {}}
+{"timestamp": "2025-11-22T00:19:47.542370", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:19:48.344863", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [12264]", "extra": {}}
+{"timestamp": "2025-11-22T00:19:48.345547", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-22T00:19:48.345813", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:19:48.345913", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:19:48.346842", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:19:48.346946", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:19:48.347526", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:19:48.399660", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "5 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:20:53.848913", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:20:53.849837", "level": "WARNING", "logger": "uvicorn.error", "module": "basereload", "line": 55, "message": "WatchFiles detected changes in 'api\\v1\\util_routes.py'. Reloading...", "extra": {}}
+{"timestamp": "2025-11-22T00:20:53.925524", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 264, "message": "Shutting down", "extra": {}}
+{"timestamp": "2025-11-22T00:20:54.040435", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 67, "message": "Waiting for application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:20:54.040682", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:20:54.040820", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:20:54.041414", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 76, "message": "Application shutdown complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:20:54.042334", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 94, "message": "Finished server process [12264]", "extra": {}}
+{"timestamp": "2025-11-22T00:20:54.524588", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:20:55.326321", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [20816]", "extra": {}}
+{"timestamp": "2025-11-22T00:20:55.326939", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-22T00:20:55.327230", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:20:55.327335", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:20:55.328168", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:20:55.328286", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:20:55.328892", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:20:55.380417", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "5 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:30:13.130148", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-3072292527049741110", "extra": {}}
+{"timestamp": "2025-11-22T00:30:13.130275", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-3072292527049741110", "extra": {}}
+{"timestamp": "2025-11-22T00:30:13.131276", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-3072292527049741110", "extra": {}}
+{"timestamp": "2025-11-22T00:30:13.131356", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-3072292527049741110", "extra": {}}
+{"timestamp": "2025-11-22T00:30:13.133297", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:30:14.705449", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:30:14.853300", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:30:15.756918", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-22T00:34:26.224148", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:34:26.225203", "level": "WARNING", "logger": "uvicorn.error", "module": "basereload", "line": 55, "message": "WatchFiles detected changes in 'core\\config.py'. Reloading...", "extra": {}}
+{"timestamp": "2025-11-22T00:34:26.312106", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 264, "message": "Shutting down", "extra": {}}
+{"timestamp": "2025-11-22T00:34:26.414570", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 67, "message": "Waiting for application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:34:26.414787", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:34:26.414883", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:34:26.415424", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 76, "message": "Application shutdown complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:34:26.416011", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 94, "message": "Finished server process [20816]", "extra": {}}
+{"timestamp": "2025-11-22T00:34:26.892302", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:34:27.345158", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "5 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:34:27.670928", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [19520]", "extra": {}}
+{"timestamp": "2025-11-22T00:34:27.671626", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-22T00:34:27.671917", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:34:27.672016", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:34:27.672849", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:34:27.672958", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:34:27.673535", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:37:02.724624", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:37:02.725510", "level": "WARNING", "logger": "uvicorn.error", "module": "basereload", "line": 55, "message": "WatchFiles detected changes in 'api\\v1\\util_routes.py'. Reloading...", "extra": {}}
+{"timestamp": "2025-11-22T00:37:02.826810", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 264, "message": "Shutting down", "extra": {}}
+{"timestamp": "2025-11-22T00:37:02.927860", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 67, "message": "Waiting for application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:37:02.928096", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:37:02.928208", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:37:02.928760", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 76, "message": "Application shutdown complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:37:02.929336", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 94, "message": "Finished server process [19520]", "extra": {}}
+{"timestamp": "2025-11-22T00:37:03.393178", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:37:04.207936", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 84, "message": "Started server process [24216]", "extra": {}}
+{"timestamp": "2025-11-22T00:37:04.208805", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 48, "message": "Waiting for application startup.", "extra": {}}
+{"timestamp": "2025-11-22T00:37:04.209099", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:37:04.209213", "level": "INFO", "logger": "app", "module": "main", "line": 54, "message": "Application startup: creating DB tables (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:37:04.210379", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:37:04.210481", "level": "INFO", "logger": "app", "module": "main", "line": 49, "message": "Database tables created (sync).", "extra": {}}
+{"timestamp": "2025-11-22T00:37:04.211069", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 62, "message": "Application startup complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:37:04.297234", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "5 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:39:44.173898", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:39:44.174026", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:39:44.175093", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:39:44.175181", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:39:44.176836", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:39:45.730947", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:39:45.874338", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:39:46.048576", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:39:46.476446", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-22T00:39:47.205670", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:39:54.390192", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:39:54.390301", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:39:54.391159", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:39:54.391256", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:39:54.392519", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:39:54.977201", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:39:55.004247", "level": "ERROR", "logger": "app.tools.file_tools", "module": "file_tools", "line": 220, "message": "Attempted to read file structure outside current directory: /usr/local/bin", "extra": {}}
+{"timestamp": "2025-11-22T00:39:55.004378", "level": "ERROR", "logger": "app.tools.file_tools", "module": "file_tools", "line": 220, "message": "Attempted to read file structure outside current directory: /usr/local/bin", "extra": {}}
+{"timestamp": "2025-11-22T00:39:55.145965", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:39:55.515861", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:39:55.790517", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-22T00:39:56.623966", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.648465", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 68, "message": "Fetching all available models from Ollama.", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.648666", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is granite4:350m", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.648752", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 68, "message": "Fetching all available models from Ollama.", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.649105", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 89, "message": "Current model is granite4:350m", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.713688", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/tags \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714217", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714254", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714304", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714330", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714372", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3n:e2b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714396", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3n:e2b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714436", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3:270m", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714460", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gemma3:270m", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714500", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:7b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714523", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:7b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714562", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:14b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714586", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen2.5:14b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714625", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:4b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714648", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:4b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714687", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:20b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714710", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:20b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714748", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss-sarcastic-20B:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714771", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss-sarcastic-20B:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714810", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: loeclos/bard:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714833", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: loeclos/bard:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714872", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714899", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: gpt-oss:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714940", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.714965", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.715003", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama2:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.715027", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama2:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.715065", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama3.2:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.715089", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 75, "message": "Found model: llama3.2:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.715215", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 78, "message": "Returning 14 models.", "extra": {}}
+{"timestamp": "2025-11-22T00:40:07.715337", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 78, "message": "Returning 14 models.", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.348562", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 113, "message": "Changing current model to qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.348693", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 113, "message": "Changing current model to qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.353923", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/tags \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.355582", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.355617", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: granite4:3b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.355796", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.355832", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: granite4:350m", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.355998", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: gemma3n:e2b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.356039", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: gemma3n:e2b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.356210", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: gemma3:270m", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.356254", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: gemma3:270m", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.356407", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: qwen2.5:7b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.356498", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: qwen2.5:7b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.356652", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: qwen2.5:14b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.356688", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: qwen2.5:14b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.356825", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: qwen3:4b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.356859", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: qwen3:4b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.356976", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: gpt-oss:20b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.357005", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: gpt-oss:20b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.357121", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: gpt-oss-sarcastic-20B:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.357150", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: gpt-oss-sarcastic-20B:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.357264", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: loeclos/bard:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.357292", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: loeclos/bard:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.357406", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: gpt-oss:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.357435", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: gpt-oss:latest", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.357573", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.357606", "level": "DEBUG", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 118, "message": "Checking model: qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.357739", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 121, "message": "Model changed to qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:12.357825", "level": "INFO", "logger": "app.api.v1.ollama_routes", "module": "ollama_routes", "line": 121, "message": "Model changed to qwen3:0.6b", "extra": {}}
+{"timestamp": "2025-11-22T00:40:21.781025", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:40:21.781158", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:40:21.782213", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:40:21.782325", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:40:21.783503", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:40:24.926690", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:40:28.819488", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:40:29.139941", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-22T00:40:29.974361", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:40:40.399431", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:40:40.399547", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:40:40.400385", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:40:40.400502", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:40:40.401585", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:40:40.709062", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:40:45.233337", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:40:45.511907", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-22T00:40:46.389739", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:41:08.393046", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:41:08.393197", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 17, "message": "Creating agent for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:41:08.394263", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:41:08.394398", "level": "INFO", "logger": "app.services.agno_services", "module": "agno_services", "line": 27, "message": "Agent created for session_id: session_-6601789565820872569", "extra": {}}
+{"timestamp": "2025-11-22T00:41:08.395699", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1025, "message": "HTTP Request: GET http://127.0.0.1:11434/api/ps \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:41:08.602741", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:41:10.891229", "level": "ERROR", "logger": "app.tools.file_tools", "module": "file_tools", "line": 86, "message": "Attempted to write to file outside current directory: example.txt", "extra": {}}
+{"timestamp": "2025-11-22T00:41:10.891408", "level": "ERROR", "logger": "app.tools.file_tools", "module": "file_tools", "line": 86, "message": "Attempted to write to file outside current directory: example.txt", "extra": {}}
+{"timestamp": "2025-11-22T00:41:11.080899", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST http://127.0.0.1:11434/api/chat \"HTTP/1.1 200 OK\"", "extra": {}}
+{"timestamp": "2025-11-22T00:41:17.850574", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "3 changes detected", "extra": {}}
+{"timestamp": "2025-11-22T00:41:18.252292", "level": "INFO", "logger": "httpx", "module": "_client", "line": 1740, "message": "HTTP Request: POST https://os-api.agno.com/telemetry/runs \"HTTP/1.1 201 Created\"", "extra": {}}
+{"timestamp": "2025-11-22T00:41:19.008188", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:44:33.556726", "level": "INFO", "logger": "watchfiles.main", "module": "main", "line": 308, "message": "1 change detected", "extra": {}}
+{"timestamp": "2025-11-22T00:44:33.557732", "level": "WARNING", "logger": "uvicorn.error", "module": "basereload", "line": 55, "message": "WatchFiles detected changes in 'tools\\file_tools.py'. Reloading...", "extra": {}}
+{"timestamp": "2025-11-22T00:44:33.571548", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 264, "message": "Shutting down", "extra": {}}
+{"timestamp": "2025-11-22T00:44:33.687577", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 67, "message": "Waiting for application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:44:33.687834", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:44:33.687950", "level": "INFO", "logger": "app", "module": "main", "line": 57, "message": "Application shutdown.", "extra": {}}
+{"timestamp": "2025-11-22T00:44:33.688494", "level": "INFO", "logger": "uvicorn.error", "module": "on", "line": 76, "message": "Application shutdown complete.", "extra": {}}
+{"timestamp": "2025-11-22T00:44:33.689051", "level": "INFO", "logger": "uvicorn.error", "module": "server", "line": 94, "message": "Finished server process [24216]", "extra": {}}

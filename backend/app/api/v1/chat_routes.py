@@ -3,8 +3,8 @@ from fastapi.responses import StreamingResponse
 
 from uuid import uuid4
 from pydantic import BaseModel
-from app.services.ollama_services import check_ollama_running
-from app.services.agno_services import create_agent
+from services.ollama_services import check_ollama_running
+from services.agno_services import create_agent
 import asyncio
 import json
 

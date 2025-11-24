@@ -1,6 +1,6 @@
 from agno.tools import tool
 from tavily import TavilyClient
-from app.core.config import settings
+from core.config import settings
 
 
 client = TavilyClient(settings.TAVILY_API_KEY)

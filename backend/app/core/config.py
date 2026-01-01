@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     DATABASE_URL: str = "sqlite:///./test.db"
     MODEL: str = "granite4:350m" 
     TAVILY_API_KEY: str = os.getenv('TAVILY_API_KEY')
-    CURRENT_DIR: str = "/"
+    CURRENT_DIR: str = "./"
 
 
 settings = Settings()

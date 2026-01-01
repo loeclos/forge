@@ -1,6 +1,6 @@
-from agno.agent import Agent 
-from agno.models.ollama import Ollama
-from app.core.config import Settings
+from agent import Agent 
+from models.ollama import Ollama
+from core.config import Settings
 
 from textwrap import dedent
 

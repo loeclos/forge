@@ -1,7 +1,7 @@
 import logging
 import os
 from pathlib import Path
-from app.core.config import settings
+from core.config import settings
 from typing import Literal
 
 logger = logging.getLogger(__name__)
@@ -55,8 +55,12 @@ def write_file(filename: str, value: str = '', write_type: Literal['w', 'a', 'x'
     all write operations.
 
     Args:
-        filename (str): The path to the file to write. Must be within CURRENT_DIR
-            or a RuntimeError will be raised.
+        filename (str): The path to the file to write. 
+            Try to use absoloute paths with the current working directory on the front when possible. 
+            Filepaths can only be within the current working directory. 
+            Check the current working directory with `get_current_dir`
+
+
         value (str, optional): The content to write to the file. Defaults to empty string.
         write_type (Literal['w', 'a', 'x', 'wt'], optional): The file write mode.
             - 'w': Write mode (truncate if exists)

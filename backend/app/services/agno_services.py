@@ -6,9 +6,9 @@ from agno.agent import Agent
 from agno.models.ollama import Ollama
 from agno.db.sqlite import SqliteDb
 
-from app.core.config import settings
-from app.tools.search_internet import search_internet
-from app.tools.file_tools import write_file, read_file, list_files_in_dir, get_current_dir
+from core.config import settings
+from tools.search_internet import search_internet
+from tools.file_tools import write_file, read_file, list_files_in_dir, get_current_dir
 import logging
 
 logger = logging.getLogger(__name__)

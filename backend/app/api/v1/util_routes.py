@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 import os
-from core.config import settings
+from app.core.config import settings
 from pathlib import Path
 import logging
 

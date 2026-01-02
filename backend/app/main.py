@@ -1,13 +1,13 @@
 from fastapi import Depends, FastAPI, HTTPException, Query
 
-from database import SessionLocal, engine, Base
+from app.database import SessionLocal, engine, Base
 from contextlib import asynccontextmanager
 import logging
-from core.config import settings
+from app.core.config import settings
 import os
 
-from api.v1 import ollama_routes, chat_routes, util_routes
-from config.logging import setup_logging
+from app.api.v1 import ollama_routes, chat_routes, util_routes
+from app.config.logging import setup_logging
 
 setup_logging()
 

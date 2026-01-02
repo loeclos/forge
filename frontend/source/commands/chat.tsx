@@ -4,13 +4,12 @@ import CommandSelect from '../components/command-select.js';
 import Input from '../components/input.js';
 import MenuComponent from '../components/menu.js';
 import MessagesComponent from '../components/messages.js';
-import useMessageService from '../services/use-message-service.js';
+import useQueService from '../services/use-que-service.js';
 import {Command} from '../services/types/command.js';
 
 export default function Chat() {
 	const [query, setQuery] = useState('');
-	const {sendAndRecieveMessage, messages, currentMessage} =
-		useMessageService(null);
+	const {sendMessage, messages, currentMessage} = useQueService(null);
 
 	const defaultCommands: Command[] = [
 		{

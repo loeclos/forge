@@ -2,9 +2,9 @@ from fastapi import APIRouter, HTTPException
 from fastapi.responses import StreamingResponse
 
 import ollama
-from services.ollama_services import get_all_models
+from app.services.ollama_services import get_all_models
 from pydantic import BaseModel
-from core.config import settings
+from app.core.config import settings
 import json
 import logging
 

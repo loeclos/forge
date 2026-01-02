@@ -1,7 +1,7 @@
-import dotenv from 'dotenv';
 import {Box, Newline, Text, useApp, useInput} from 'ink';
 import {useEffect, useState} from 'react';
 import SecurityQuestionComponent from '../components/security-question.js';
+import useFileService from '../services/use-file-service.js';
 import Chat from './chat.js';
 import zod from 'zod';
 
@@ -17,48 +17,28 @@ type Props = {
 	options: zod.infer<typeof options>;
 };
 
-dotenv.config({path: '.env.local', quiet: true});
 
 export const isDefault = true;
 
-interface CwdResponse {
-	dir: string | undefined;
-	message: string | undefined;
-}
+
 
 export default function App({options}: Props) {
-
 	const [cwd, setCwd] = useState('');
 	const [proceedConsent, setProceedConsent] = useState(false);
+	const [checkedCWD, setCheckedCWD] = useState(false);
 	const [lastKeyPressed, setLastKeyPressed] = useState('');
-	const [mainServerEndpoint, setMainServerEndpoint] = useState(
-		'http://127.0.0.1:8000',
-	);
 	const {exit} = useApp();
-
-	useEffect(() => {
-		setMainServerEndpoint(
-			process.env['MAIN_ENDPOINT'] || 'http://127.0.0.1:8000',
-		);
-	}, []);
+	const {changeCWD, fetchCwd}  = useFileService();
 
 	useEffect(() => {
 		if (options.dir) {
-			fetch(`${mainServerEndpoint}/api/utils/change_cwd/`, {
-				method: 'POST',
-				body: JSON.stringify({dir: options.dir}),
-				headers: {'Content-Type': 'application/json'},
+			changeCWD(options.dir).then(() => {
+				setCheckedCWD(true);
 			});
 		}
 	}, []);
 
 	useEffect(() => {
-		const fetchCwd = async (): Promise<CwdResponse> => {
-			const response = await fetch(`${mainServerEndpoint}/api/utils/getcwd`);
-			const data: CwdResponse = await response.json();
-			return data;
-		};
-
 		fetchCwd()
 			.then(data => {
 				setCwd(data?.dir || '');
@@ -66,7 +46,7 @@ export default function App({options}: Props) {
 			.catch(error => {
 				console.error('Error fetching cwd:', error);
 			});
-	}, []);
+	}, [checkedCWD]);
 
 	useInput((input, key) => {
 		if (key.escape) {
@@ -84,7 +64,7 @@ export default function App({options}: Props) {
 		<Box flexDirection="column" gap={1} flexWrap="wrap">
 			<Box>
 				<Text>
-					<Text color={'#6FA4AF'} >
+					<Text color={'#6FA4AF'}>
 						════════════════ <Newline />
 						╔═╗╔═╗╦═╗╔═╗╔═╗ <Newline />
 						╠╣ ║ ║╠╦╝║ ╦║╣ <Newline />

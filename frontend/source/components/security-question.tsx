@@ -59,11 +59,9 @@ export default function SecurityQuestionComponent({
 					Forge might access files in this directory. Processing untrusted files
 					could lead to unexpected behavior in Forge.
 					<Newline />
-					With your approval, Forge may run files in this directory. Executing
+					With your approval, Forge may run/read/write files in this directory. Executing
 					unverified code poses security risks.
 					<Newline />
-					This project also allows Forge to automatically perform bash commands
-					on your system.
 				</Text>
 			</Box>
 			<Box>

@@ -43,14 +43,14 @@ const MessagesComponent = memo(
 	}) => {
 		return (
 			<Box width={'100%'} flexDirection="column" gap={0} flexWrap="wrap">
-				{messages.map((message, index) => {
+				{messages.forEach((message, id) => {
 					return (
 						<Box
 							width={'100%'}
 							flexDirection="column"
 							gap={0}
 							flexWrap="wrap"
-							key={index}
+							key={id}
 						>
 							<Box
 								paddingX={1}

@@ -20,9 +20,7 @@ export default function Input({ query, setQuery, handleSumbit }: InputProps) {
 				<Text>❯ </Text>
 				<TextInput
 					value={query}
-					onChange={text => {
-						setQuery(text);
-					}}
+					onChange={setQuery}
 					onSubmit={(value) => handleSumbit(value)}
 					placeholder='Enter your message and press "Enter"'
 				/>

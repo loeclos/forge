@@ -2,3 +2,15 @@ node_modules
 dist
 chat_history.db
 app.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Databases & runtime
+*.db
+*.log
+
+# Env files
+.env.local
+.env

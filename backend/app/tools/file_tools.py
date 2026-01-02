@@ -1,7 +1,7 @@
 import logging
 import os
 from pathlib import Path
-from core.config import settings
+from app.core.config import settings
 from typing import Literal
 
 logger = logging.getLogger(__name__)

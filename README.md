@@ -41,7 +41,7 @@ Before installing Forge, ensure you have the following installed:
 - **Python 3.8+**: Required for the backend
 - **Node.js 16+**: Required for the frontend
 - **Ollama**: Must be installed and running locally
-  - Download from [ollama.ai](https://ollama.ai)
+  - Download from [ollama.com](https://ollama.com)
   - At least one model must be downloaded (e.g., `qwen2.5:14b`)
 - **Tavily API Key**: Required for internet search functionality
   - Sign up at [tavily.com](https://tavily.com) to get your API key

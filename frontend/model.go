@@ -104,6 +104,8 @@ var (
 	docStyle = lipgloss.NewStyle().Padding(1, 2, 1, 2)
 )
 
+type ConsentDialogPositive struct{}
+
 type Model struct {
 	dialogs    []tea.Model
 	loaded     bool
@@ -147,7 +149,7 @@ func (m Model) View() string {
 		statusVal := statusText.
 			Width(docWidth - w(statusKey) - w(encoding) - w(fishCake)).
 			Italic(true).
-			Render("ctrl+c or q ● quit ")
+			Render("q to quit ● →/↑/↓/← or h/j/k/l to move ● enter to submit")
 
 		bar := lipgloss.JoinHorizontal(lipgloss.Top,
 			statusKey,
@@ -215,7 +217,10 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			height = msg.Height
 			m.loaded = true
 		}
-
+	case ConsentDialogPositive:
+		m.runConsent = true
+		m.dialogs = m.dialogs[len(m.dialogs)-1:]
+		return m, nil
 	case tea.KeyMsg:
 		if len(m.dialogs) != 0 {
 			dialogIndex := len(m.dialogs) - 1
@@ -248,7 +253,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	}
 
 	if m.state == consentDialog && m.loaded == true {
-		m.dialogs = append(m.dialogs, dialog.New("Forge can change files in the current directory.\n\nDo you want to continue?", width, height))
+		consentDialog := dialog.New("Forge can change files in the current directory.\n\nDo you want to continue?", width, height, func() tea.Msg { return ConsentDialogPositive{} }, func() tea.Msg { return tea.Quit() })
+		m.dialogs = append(m.dialogs, consentDialog)
 	}
+
 	return m, nil
 }

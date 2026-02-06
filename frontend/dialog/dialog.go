@@ -13,7 +13,7 @@ import (
 	"github.com/muesli/gamut"
 )
 
-var choices = []string{"Taro", "Coffee", "Lychee"}
+var choices = []string{"no", "yes"}
 
 var (
 	subtle = lipgloss.AdaptiveColor{Light: "#D9DCCF", Dark: "#383838"}
@@ -49,6 +49,10 @@ const (
 	yes
 )
 
+type DialogMsg struct {
+	selectedChoice string
+}
+
 type Dialog struct {
 	message  string
 	selected selectedButton
@@ -58,17 +62,21 @@ type Dialog struct {
 	choice   string
 	width    int
 	height   int
+	yesFunc  func() tea.Msg
+	noFunc   func() tea.Msg
 }
 
 func (d Dialog) Init() tea.Cmd {
 	return nil
 }
 
-func New(message string, width, height int) Dialog {
+func New(message string, width, height int, positiveAction, negativeAction func() tea.Msg) Dialog {
 	return Dialog{
 		message: message,
 		width:   width,
 		height:  height,
+		yesFunc: positiveAction,
+		noFunc:  negativeAction,
 	}
 }
 
@@ -101,7 +109,12 @@ func (d Dialog) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		case "enter":
 			// Send the choice on the channel and exit.
 			d.choice = choices[d.cursor]
-			return d, tea.Quit
+
+			if d.selected == yes {
+				return d, d.yesFunc
+			} else {
+				return d, d.noFunc
+			}
 
 		case "g":
 			fmt.Println("how yall doin")

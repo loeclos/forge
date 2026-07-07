@@ -2,14 +2,9 @@ import {memo} from 'react';
 import {Message} from '../services/types/message.js';
 import {Box, Text} from 'ink';
 
-const CurrentMessageComponent = ({message}: {message: Message}) => {
+const MessageBubble = ({message}: {message: Message}) => {
 	return (
-		<Box
-			width={'100%'}
-			flexDirection="column"
-			gap={0}
-			flexWrap="wrap"
-		>
+		<Box width={'100%'} flexDirection="column" gap={0} flexWrap="wrap">
 			<Box
 				paddingX={1}
 				borderStyle={'round'}
@@ -43,38 +38,10 @@ const MessagesComponent = memo(
 	}) => {
 		return (
 			<Box width={'100%'} flexDirection="column" gap={0} flexWrap="wrap">
-				{messages.map((message, index) => {
-					return (
-						<Box
-							width={'100%'}
-							flexDirection="column"
-							gap={0}
-							flexWrap="wrap"
-							key={index}
-						>
-							<Box
-								paddingX={1}
-								borderStyle={'round'}
-								borderColor={'white'}
-								borderDimColor
-								width={'100%'}
-							>
-								<Text>❯ </Text>
-								<Text>{message.user}</Text>
-							</Box>
-							<Box
-								paddingX={2}
-								paddingY={1}
-								borderStyle={'round'}
-								borderColor={'#D97D55'}
-								width={'100%'}
-							>
-								<Text>{message.model}</Text>
-							</Box>
-						</Box>
-					);
-				})}
-				{currentMessage ? (<CurrentMessageComponent message={currentMessage} />) : (null)}
+				{messages.map((message, index) => (
+					<MessageBubble key={index} message={message} />
+				))}
+				{currentMessage ? (<MessageBubble message={currentMessage} />) : (null)}
 			</Box>
 		);
 	},

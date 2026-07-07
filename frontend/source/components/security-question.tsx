@@ -1,7 +1,7 @@
 import { Text, Box, Newline } from 'ink';
-import SelectInput from 'ink-select-input';
 
 import { SelectItemType } from '../services/types/select.js';
+import ForgeSelectInput from './forge-select.js';
 
 
 const securityQuestionSelectOptions: SelectItemType[] = [
@@ -67,14 +67,8 @@ export default function SecurityQuestionComponent({
 				</Text>
 			</Box>
 			<Box>
-				<SelectInput
+				<ForgeSelectInput
 					items={securityQuestionSelectOptions}
-					indicatorComponent={({isSelected}) => (
-						<Text color={'#6FA4AF'}>{isSelected ? '❯ ' : '  '}</Text>
-					)}
-					itemComponent={({isSelected, label}) => (
-						<Text color={isSelected ? '#6FA4AF' : 'white'}>{label}</Text>
-					)}
 					onSelect={handleSecuritySelect}
 				/>
 			</Box>

@@ -3,8 +3,10 @@ from fastapi.responses import StreamingResponse
 
 import ollama
 from services.ollama_services import get_all_models
+from services.ollama_services import check_ollama_running as is_ollama_running
 from pydantic import BaseModel
 from core.config import settings
+from core.errors import ollama_unavailable
 import json
 import logging
 
@@ -47,7 +49,7 @@ def download_new_model(model_name: str):
         )     
     except ConnectionError as e:
         logger.error(f'Failed to download {model_name}: Ollama not installed or not running.')
-        return HTTPException(status_code=500, detail='Ollama either not installed or not running.')
+        return ollama_unavailable()
     except ollama.ResponseError:
         logger.error(f'Failed to download {model_name}: Model does not exist.')
         return HTTPException(status_code=500, detail='The model you tried to download does not exist.')
@@ -69,7 +71,7 @@ def get_models():
         models_list = get_all_models()
     except ConnectionError as e:
         logger.error("Failed to fetch models: Ollama not installed or not running.")
-        return HTTPException(status_code=500, detail='Ollama either not installed or not running.')
+        return ollama_unavailable()
     
     for model in models_list.models:
         logger.debug(f"Found model: {model.model}")
@@ -91,14 +93,12 @@ def get_current_model():
 
 @router.get('/alive')
 def check_ollama_running():
-    '''Checks whether '''
-    try: 
-        ollama.ps()
+    '''Checks whether Ollama is currently running.'''
+    if is_ollama_running():
         logger.info("Ollama is running.")
         return True
-    except ConnectionError as e:
-        logger.error("Ollama is not running.")
-        return False
+    logger.error("Ollama is not running.")
+    return False
 
 
 @router.post('/change')
@@ -124,7 +124,7 @@ def change_current_model(new_model: ChangeModelRequest):
                 continue
     except ConnectionError as e:
         logger.error("Failed to change model: Ollama not installed or not running.")
-        return HTTPException(status_code=500, detail='Ollama either not installed or not running.')
+        return ollama_unavailable()
 
     logger.warning(f"Model {new_model.model_name} not found among installed models.")
     return HTTPException(status_code=404, detail='The model you are trying to set as default was not found installed. Maybe pull it from ollama?')

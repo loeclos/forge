@@ -1,9 +1,7 @@
 import {useState} from 'react';
 import {v4 as uuid4} from 'uuid';
 import {Message} from './types/message.js';
-import dotenv from 'dotenv';
-
-dotenv.config({path: '.env.local', quiet: true});
+import {MAIN_ENDPOINT} from '../config.js';
 
 export default function useMessageService(session_id: string | null) {
 	const [messages, setMessages] = useState<Message[]>([]);
@@ -23,7 +21,7 @@ export default function useMessageService(session_id: string | null) {
 
 		setCurrentMessage(localMessage);
 
-		const response = await fetch(`${process.env['MAIN_ENDPOINT']}/api/chat`, {
+		const response = await fetch(`${MAIN_ENDPOINT}/api/chat`, {
 			method: 'POST',
 			body: JSON.stringify({
 				message,

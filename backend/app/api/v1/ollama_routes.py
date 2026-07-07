@@ -25,10 +25,17 @@ def download_model(model_name: str):
     -------
     - `str`: SSE like structured string'''
 
-    for progress in ollama.pull(model_name, stream=True):
-        data = json.dumps({'completed': progress.completed, 'total': progress.total})
-        logger.debug(f"Download progress for {model_name}: {data}")
-        yield f'data: {data}\n\n'
+    try:
+        for progress in ollama.pull(model_name, stream=True):
+            data = json.dumps({'completed': progress.completed, 'total': progress.total})
+            logger.debug(f"Download progress for {model_name}: {data}")
+            yield f'data: {data}\n\n'
+    except ConnectionError:
+        logger.error(f'Failed to download {model_name}: Ollama not installed or not running.')
+        yield f"data: {json.dumps({'error': 'Ollama either not installed or not running.'})}\n\n"
+    except ollama.ResponseError as e:
+        logger.error(f'Failed to download {model_name}: {e}')
+        yield f"data: {json.dumps({'error': 'The model you tried to download does not exist.'})}\n\n"
 
 @router.post('/download/{model_name}')
 def download_new_model(model_name: str):
@@ -39,18 +46,11 @@ def download_new_model(model_name: str):
     - A `StreamingResponse` of the download activity.
     - A `HTTPException` if wanted model does not exist on ollama servers and/or when encountered an ollama `ConnectionError`'''
 
-    try:
-        logger.info(f'Downloading new model {model_name}.')
-        return StreamingResponse(
+    logger.info(f'Downloading new model {model_name}.')
+    return StreamingResponse(
         download_model(model_name),
-        media_type='application/json'  
-        )     
-    except ConnectionError as e:
-        logger.error(f'Failed to download {model_name}: Ollama not installed or not running.')
-        return HTTPException(status_code=500, detail='Ollama either not installed or not running.')
-    except ollama.ResponseError:
-        logger.error(f'Failed to download {model_name}: Model does not exist.')
-        return HTTPException(status_code=500, detail='The model you tried to download does not exist.')
+        media_type='application/json'
+    )
 
 @router.get('/all')
 def get_models():
@@ -69,7 +69,7 @@ def get_models():
         models_list = get_all_models()
     except ConnectionError as e:
         logger.error("Failed to fetch models: Ollama not installed or not running.")
-        return HTTPException(status_code=500, detail='Ollama either not installed or not running.')
+        raise HTTPException(status_code=500, detail='Ollama either not installed or not running.')
     
     for model in models_list.models:
         logger.debug(f"Found model: {model.model}")
@@ -113,18 +113,15 @@ def change_current_model(new_model: ChangeModelRequest):
         logger.info(f"Changing current model to {new_model.model_name}")
         all_models = get_all_models()
 
-        for model in all_models['models']:
-            print( model)
-            logger.debug(f"Checking model: {model['model']}")
-            if model['model'] == new_model.model_name:
+        for model in all_models.models:
+            logger.debug(f"Checking model: {model.model}")
+            if model.model == new_model.model_name:
                 settings.MODEL = new_model.model_name
                 logger.info(f"Model changed to {settings.MODEL}")
                 return {'message': f'Success! model set to {settings.MODEL}'}
-            else:
-                continue
     except ConnectionError as e:
         logger.error("Failed to change model: Ollama not installed or not running.")
-        return HTTPException(status_code=500, detail='Ollama either not installed or not running.')
+        raise HTTPException(status_code=500, detail='Ollama either not installed or not running.')
 
     logger.warning(f"Model {new_model.model_name} not found among installed models.")
-    return HTTPException(status_code=404, detail='The model you are trying to set as default was not found installed. Maybe pull it from ollama?')
+    raise HTTPException(status_code=404, detail='The model you are trying to set as default was not found installed. Maybe pull it from ollama?')

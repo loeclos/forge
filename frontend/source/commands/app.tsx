@@ -46,8 +46,10 @@ export default function App({options}: Props) {
 		if (options.dir) {
 			fetch(`${mainServerEndpoint}/api/utils/change_cwd/`, {
 				method: 'POST',
-				body: JSON.stringify({dir: options.dir}),
+				body: JSON.stringify({path: options.dir}),
 				headers: {'Content-Type': 'application/json'},
+			}).catch(error => {
+				console.error('Error changing directory:', error);
 			});
 		}
 	}, []);

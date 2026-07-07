@@ -23,20 +23,30 @@ export default function useMessageService(session_id: string | null) {
 
 		setCurrentMessage(localMessage);
 
-		const response = await fetch(`${process.env['MAIN_ENDPOINT']}/api/chat`, {
-			method: 'POST',
-			body: JSON.stringify({
-				message,
-				session_id: sessionId,
-				stream: true,
-			}),
-			headers: {'Content-Type': 'application/json'},
-		});
+		const showError = (detail: string) => {
+			setStatus('error');
+			setCurrentMessage({...localMessage, model: `[ERROR] ${detail}`});
+		};
 
-		if (!response.body) throw new Error('No response body');
+		let response: Response;
+		try {
+			response = await fetch(`${process.env['MAIN_ENDPOINT']}/api/chat`, {
+				method: 'POST',
+				body: JSON.stringify({
+					message,
+					session_id: sessionId,
+					stream: true,
+				}),
+				headers: {'Content-Type': 'application/json'},
+			});
+		} catch (e) {
+			showError(e instanceof Error ? e.message : 'Could not reach the server.');
+			return;
+		}
 
-		if (!response.ok) {
-			setCurrentMessage({...localMessage, model: `[SERVER RETURENED ${response.status}] ${response.statusText}`});
+		if (!response.ok || !response.body) {
+			showError(`Server returned ${response.status} ${response.statusText}`);
+			return;
 		}
 
 		const reader = response.body.getReader();
@@ -45,39 +55,54 @@ export default function useMessageService(session_id: string | null) {
 
 		localMessage.model = '';
 
-		while (true) {
-			const {value, done} = await reader.read();
-			if (done) break;
-			buffer += decoder.decode(value, {stream: true});
+		try {
+			while (true) {
+				const {value, done} = await reader.read();
+				if (done) break;
+				buffer += decoder.decode(value, {stream: true});
 
-			const parts = buffer.split('\n\n');
-			for (let i = 0; i < parts.length - 1; i++) {
-				const line = parts[i]?.trim();
-				if (!line?.startsWith('data: ')) continue;
+				const parts = buffer.split('\n\n');
+				for (let i = 0; i < parts.length - 1; i++) {
+					const line = parts[i]?.trim();
+					if (!line?.startsWith('data: ')) continue;
 
-				const data = line.replace('data: ', '');
-				if (data === '[DONE]') {
-					setStatus('waiting');
-					setMessages(prev => [...prev, localMessage]);
-					setCurrentMessage(null);
-					return;
-				}
-
-				try {
-					const parsed = JSON.parse(data);
-					if (!sessionId && parsed.session_id) setSessionId(parsed.session_id);
-
-					if (parsed.content) {
-						localMessage.model += parsed.content;
-						setCurrentMessage({...localMessage}); // just for live UI updates
+					const data = line.replace('data: ', '');
+					if (data === '[DONE]') {
+						setStatus('waiting');
+						setMessages(prev => [...prev, localMessage]);
+						setCurrentMessage(null);
+						return;
 					}
-				} catch (e) {
-					console.error('Failed to parse chunk', e, data);
-				}
-			}
 
-			buffer = parts[parts.length - 1] ?? '';
+					try {
+						const parsed = JSON.parse(data);
+						if (!sessionId && parsed.session_id) setSessionId(parsed.session_id);
+
+						if (parsed.error) {
+							showError(parsed.error);
+							return;
+						}
+
+						if (parsed.content) {
+							localMessage.model += parsed.content;
+							setCurrentMessage({...localMessage}); // just for live UI updates
+						}
+					} catch (e) {
+						console.error('Failed to parse chunk', e, data);
+					}
+				}
+
+				buffer = parts[parts.length - 1] ?? '';
+			}
+		} catch (e) {
+			showError(e instanceof Error ? e.message : 'Streaming failed.');
+			return;
 		}
+
+		// Stream ended without an explicit [DONE] marker; persist what we have.
+		setStatus('waiting');
+		setMessages(prev => [...prev, localMessage]);
+		setCurrentMessage(null);
 	};
 
 	return {

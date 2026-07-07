@@ -34,7 +34,8 @@ export default function ChangeModelComponent() {
 		clearError();
 		getCurrentModel()
 			.then(model => setModel(model.name))
-			.then(() => setStatus('confirmed'));
+			.then(() => setStatus('confirmed'))
+			.catch(e => setErrorMessage(e.message));
 	};
 
 	useEffect(() => {

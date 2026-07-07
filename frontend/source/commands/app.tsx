@@ -1,9 +1,9 @@
-import dotenv from 'dotenv';
 import {Box, Newline, Text, useApp, useInput} from 'ink';
 import {useEffect, useState} from 'react';
 import SecurityQuestionComponent from '../components/security-question.js';
 import Chat from './chat.js';
 import zod from 'zod';
+import {MAIN_ENDPOINT} from '../config.js';
 
 export const options = zod.object({
 	dir: zod
@@ -17,8 +17,6 @@ type Props = {
 	options: zod.infer<typeof options>;
 };
 
-dotenv.config({path: '.env.local', quiet: true});
-
 export const isDefault = true;
 
 interface CwdResponse {
@@ -31,16 +29,8 @@ export default function App({options}: Props) {
 	const [cwd, setCwd] = useState('');
 	const [proceedConsent, setProceedConsent] = useState(false);
 	const [lastKeyPressed, setLastKeyPressed] = useState('');
-	const [mainServerEndpoint, setMainServerEndpoint] = useState(
-		'http://127.0.0.1:8000',
-	);
+	const [mainServerEndpoint] = useState(MAIN_ENDPOINT);
 	const {exit} = useApp();
-
-	useEffect(() => {
-		setMainServerEndpoint(
-			process.env['MAIN_ENDPOINT'] || 'http://127.0.0.1:8000',
-		);
-	}, []);
 
 	useEffect(() => {
 		if (options.dir) {

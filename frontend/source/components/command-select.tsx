@@ -1,6 +1,6 @@
-import {Box, Text} from 'ink';
-import SelectInput from 'ink-select-input';
+import {Box} from 'ink';
 import {Command} from '../services/types/command.js';
+import ForgeSelectInput from './forge-select.js';
 
 export default function CommandSelect({
 	commands,
@@ -11,19 +11,13 @@ export default function CommandSelect({
 }) {
 	return (
 		<Box borderStyle={'round'} borderDimColor paddingX={1}>
-			<SelectInput
+			<ForgeSelectInput
 				items={commands.map(command => {
 					return {
 						label: `${command.name} - ${command.description}`,
 						value: command.name,
 					};
 				})}
-				indicatorComponent={({isSelected}) => (
-					<Text color={'#6FA4AF'}>{isSelected ? '❯ ' : '  '}</Text>
-				)}
-				itemComponent={({isSelected, label}) => (
-					<Text color={isSelected ? '#6FA4AF' : 'white'}>{label}</Text>
-				)}
 				onSelect={handleSelect}
 			/>
 		</Box>

@@ -5,6 +5,7 @@ from uuid import uuid4
 from pydantic import BaseModel
 from services.ollama_services import check_ollama_running
 from services.agno_services import create_agent
+from core.errors import ollama_unavailable
 import asyncio
 import json
 
@@ -44,7 +45,7 @@ async def chat(request: ChatRequest):
     
     try:
         if not check_ollama_running():
-            raise HTTPException(status_code=500, detail="Ollama either not installed or not running.")
+            raise ollama_unavailable()
         if not request.stream:
             # Non-streaming mode: Return full response
             response = await agent.arun(request.message, stream=False)
@@ -90,6 +91,6 @@ async def chat(request: ChatRequest):
         )
     
     except ConnectionError:
-        raise HTTPException(status_code=500, detail="Ollama either not installed or not running.")
+        raise ollama_unavailable()
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error processing request: {str(e)}")

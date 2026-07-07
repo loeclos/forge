@@ -1,30 +1,24 @@
-import dotenv from 'dotenv';
 import {useHttp} from '../hooks/http.hook.js';
-
-dotenv.config({path: '.env.local', quiet: true});
+import {MAIN_ENDPOINT} from '../config.js';
 
 export default function useModelService() {
 	const {request, clearError, status, setStatus} = useHttp();
 
 	const getCurrentModel = async () => {
-		const res = await request(
-			`${process.env['MAIN_ENDPOINT']}/api/models/current`,
-		);
+		const res = await request(`${MAIN_ENDPOINT}/api/models/current`);
 
 		return res;
 	};
 
 	const getAllModels = async () => {
-		const res = await request(
-			`${process.env['MAIN_ENDPOINT']}/api/models/all`,
-		);
+		const res = await request(`${MAIN_ENDPOINT}/api/models/all`);
 
 		return res;
 	};
 
 	const setCurrentModel = async (modelName: string) => {
 		const res = await request(
-			`${process.env['MAIN_ENDPOINT']}/api/models/change`,
+			`${MAIN_ENDPOINT}/api/models/change`,
 			'POST',
 			JSON.stringify({model_name: modelName}),
 			{

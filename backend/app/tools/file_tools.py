@@ -46,6 +46,16 @@ def is_path_allowed(requested: str, allowed_dir: str) -> bool:
     # 4. Check prefix
     return req_str == str(base_res) or req_str.startswith(base_str)
 
+def _require_allowed_path(path: str, action: str) -> None:
+    """Raise RuntimeError if `path` is outside the allowed CURRENT_DIR.
+
+    `action` is a short verb phrase (e.g. "write to file") used only for the
+    log message describing the rejected attempt.
+    """
+    if not is_path_allowed(path, settings.CURRENT_DIR):
+        logger.error(f"Attempted to {action} outside current directory: {path}")
+        raise RuntimeError('Cannot write to files that are not in the current directory.')
+
 def write_file(filename: str, value: str = '', write_type: Literal['w', 'a', 'x', 'wt'] = 'wt'):
     """
     Write content to a file with specified mode.
@@ -86,9 +96,7 @@ def write_file(filename: str, value: str = '', write_type: Literal['w', 'a', 'x'
         write_file('data.txt', 'Hello World')  # Write to file
         write_file('log.txt', 'New entry\\n', 'a')  # Append to file
     """
-    if not is_path_allowed(filename, settings.CURRENT_DIR):
-        logger.error(f"Attempted to write to file outside current directory: {filename}")
-        raise RuntimeError('Cannot write to files that are not in the current directory.')
+    _require_allowed_path(filename, "write to file")
     with open(file=filename, mode=write_type) as file:
         file.write(value)
     logger.info(f"File '{filename}' written with mode '{write_type}'.")
@@ -150,9 +158,7 @@ def read_file(filename: str, read_type: Literal['r', 'rb'] = 'r'):
         - This function enforces a directory whitelist; do not bypass is_path_allowed.
         - Do not pass user-supplied unvalidated paths directly without appropriate checks.
     """
-    if not is_path_allowed(filename, settings.CURRENT_DIR):
-        logger.error(f"Attempted to read file outside current directory: {filename}")
-        raise RuntimeError('Cannot write to files that are not in the current directory.')
+    _require_allowed_path(filename, "read file")
     if not os.path.isfile(filename):
         logger.error(f'{filename} is not a file.')
         raise RuntimeError(f'{filename} is not a file. Have you created it?')
@@ -220,11 +226,8 @@ def list_files_in_dir(dir: str):
       ]
     }
     """
-    if not is_path_allowed(dir, settings.CURRENT_DIR):
-        logger.error(f"Attempted to read file structure outside current directory: {dir}")
-        raise RuntimeError('Cannot write to files that are not in the current directory.')
-    else:
-        return os.listdir(dir)
+    _require_allowed_path(dir, "read file structure")
+    return os.listdir(dir)
     
 def get_current_dir():
     return settings.CURRENT_DIR

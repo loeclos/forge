@@ -1,9 +1,9 @@
 import {Box, Text} from 'ink';
-import SelectInput from 'ink-select-input';
 import {useEffect, useState} from 'react';
 import useModelService from '../../services/use-models-service.js';
 import {Model} from '../../services/types/models.js';
 import setContent from '../../utils/set-content.js';
+import ForgeSelectInput from '../forge-select.js';
 
 export default function ChangeModelComponent() {
 	const [models, setModels] = useState<Model[] | null>(null);
@@ -93,19 +93,13 @@ const View = ({data: data}: {data: ViewProps}) => {
 	return (
 		<Box flexDirection="column" gap={1} flexWrap="wrap">
 			<Text>Choose the model you want to use (currently {data.model}): </Text>
-			<SelectInput
+			<ForgeSelectInput
 				items={data.models.map(model => {
 					return {
 						label: `${model.name}`,
 						value: model.name,
 					};
 				})}
-				indicatorComponent={({isSelected}) => (
-					<Text color={'#6FA4AF'}>{isSelected ? '❯ ' : '  '}</Text>
-				)}
-				itemComponent={({isSelected, label}) => (
-					<Text color={isSelected ? '#6FA4AF' : 'white'}>{label}</Text>
-				)}
 				onSelect={data.handleSelectSubmit}
 			/>
 		</Box>

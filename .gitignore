@@ -15,3 +15,10 @@ database.db
 # Logs
 *.log
 app.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.coverage
+.pytest_cache/

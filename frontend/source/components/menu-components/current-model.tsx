@@ -5,13 +5,15 @@ import setContent from '../../utils/set-content.js';
 
 export default function CurrentModel() {
 	const [model, setModel] = useState('none');
+	const [errorMessage, setErrorMessage] = useState('');
 	const {getCurrentModel, clearError, status, setStatus} = useModelService();
 
 	const updateModel = async () => {
 		clearError();
 		getCurrentModel()
 			.then(model => setModel(model.name))
-			.then(() => setStatus('confirmed'));
+			.then(() => setStatus('confirmed'))
+			.catch(e => setErrorMessage(e.message));
 	};
 
 	useEffect(() => {
@@ -26,7 +28,7 @@ export default function CurrentModel() {
 			width={'100%'}
 			padding={1}
 		>
-			{setContent(status, View, model)}
+			{setContent(status, View, model, errorMessage)}
 		</Box>
 	);
 }

@@ -21,8 +21,10 @@ def get_current_folder():
 def change_dir(new_dir: ChangeCWDRequest):
     normalized_dir = Path(new_dir.path).resolve()
     if os.path.isdir(normalized_dir):
-        settings.CURRENT_DIR = normalized_dir
+        settings.CURRENT_DIR = str(normalized_dir)
+        logger.info(f"Changed current directory to {normalized_dir}")
         return {'message': f'Changed to {normalized_dir}'}
     else:
-        return HTTPException(f"{normalized_dir} does not exist", 500) 
+        logger.warning(f"Attempted to change to non-existent directory: {normalized_dir}")
+        raise HTTPException(status_code=404, detail=f"{normalized_dir} does not exist")
     

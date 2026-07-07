@@ -11,14 +11,17 @@ export const useHttp = () => {
             const response = await fetch(url, {method, body, headers});
 
             if (!response.ok) {
-                throw new Error(`Could not fetch ${url}, status: ${response.status}`);
+                let detail = `Could not fetch ${url}, status: ${response.status}`;
+                try {
+                    const errorBody = await response.json();
+                    if (errorBody?.detail) detail = errorBody.detail;
+                } catch {
+                    // response had no JSON body; fall back to the generic message
+                }
+                throw new Error(detail);
             }
 
             const data = await response.json();
-
-            if (data.status_code === 500) {
-                throw new Error(data.detail);
-            }
 
             return data;
         } catch(e) {
